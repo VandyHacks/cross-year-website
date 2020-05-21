@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 //type protection
 type EventProps = {

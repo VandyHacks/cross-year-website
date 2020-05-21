@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 enum Classification {Freshman = "Freshman", Sophomore = "Sophomore", Junior = "Junior", Senior = "Senior"};
 enum Committee {Dev = "Dev", Content = "Content", Sponsorship = "Sponsorship"};
