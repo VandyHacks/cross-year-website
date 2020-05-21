@@ -5,7 +5,7 @@ Cross-Year Website for VandyHacks
 ## Workflow
 ```
 npm i
-npm run dev
+npm start
 ```
 
 ## MIT License
