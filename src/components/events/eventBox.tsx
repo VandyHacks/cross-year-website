@@ -1,15 +1,22 @@
 import React from "react"
+import events from "./events.json"
 
-//type protection
-type EventProps = {
-    Title: string;
-    Description: string;
-}
+let eventArray :object[];
+eventArray = events;
 
-const EventsBox = (props: EventProps) => (
+
+const EventsBox = () => (
     <div>
-        <h2>{props.Title}</h2>
-        <p>{props.Description}</p>
+        <p>
+            {eventArray.map((value, index) => {
+                return (
+                <p key={index}>
+                    <h4>{value.Title}</h4>
+                    <li>Date: {value.Date}</li>
+                    <li>Description: {value.Description}</li></p>
+                )
+            })}
+        </p>
     </div>   
 )
 

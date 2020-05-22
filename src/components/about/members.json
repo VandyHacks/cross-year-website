@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Member 1",
+        "classification": "Freshman",
+        "committee": "Dev"
+    },
+    {
+        "name": "Member 2",
+        "classification": "Sophomore",
+        "committee": "Sponsorship"
+    },
+    {
+        "name": "Member 3",
+        "classification": "Junior",
+        "committee": "Content"
+    },
+    {
+        "name": "Member 4",
+        "classification": "Senior",
+        "committee": "Content/Dev"
+    }
+]

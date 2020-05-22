@@ -1,26 +1,8 @@
 import React from "react"
+import member from "./members.json"
 
-enum Classification {Freshman = "Freshman", Sophomore = "Sophomore", Junior = "Junior", Senior = "Senior"};
-enum Committee {Dev = "Dev", Content = "Content", Sponsorship = "Sponsorship"};
-
-//some basic members to use
-const Member1 = {
-    name: 'Member 1',
-    classification: Classification.Freshman,
-    committee: Committee.Dev
-};
-
-const Member2 = {
-    name: 'Member 2',
-    classification: Classification.Sophomore,
-    committee: Committee.Content
-};
-
-const Member3 = {
-    name: 'Member 3',
-    classification: Classification.Senior,
-    committee: Committee.Sponsorship
-};
+// enum Classification {Freshman = "Freshman", Sophomore = "Sophomore", Junior = "Junior", Senior = "Senior"};
+// enum Committee {Dev = "Dev", Content = "Content", Sponsorship = "Sponsorship"};
 
 function randomizeMembers(array: object[]): object[] {
     for (let i = array.length - 1; i > 0; i--) {
@@ -30,29 +12,21 @@ function randomizeMembers(array: object[]): object[] {
     return array;
 }
 
-function traversal(item: object, index:number){
-    <div>
-        <var>item.name</var>
-    </div>
-}
-
-//Member array object
-let memberArray: object[];
-memberArray = [Member1, Member2, Member3];
 //random array Object
 let randomArray: object[];
-randomArray = randomizeMembers(memberArray);
+randomArray = randomizeMembers(member);
 
 //randomizing through array
 const Members = () => (
     <div>
-        <h2>Member</h2>
+        <h2>List of Members</h2>
         <p>
             {randomArray.map((value, index) => {
                 return (
                 <p key={index}>
-                    <h4>{value.name}</h4><li>{value.classification}</li>
-                    <li>{value.committee}</li></p>
+                    <h3>{value.name}</h3>
+                    <li>Year: {value.classification}</li>
+                    <li>Committee: {value.committee}</li></p>
                 )
             })}
         </p>
