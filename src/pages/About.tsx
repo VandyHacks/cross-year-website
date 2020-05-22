@@ -2,7 +2,7 @@ import React from "react"
 
 import MissionStatement from "../components/about/MissionStatement"
 import NextVandyHackAnnouncement from "../components/about/NextVandyHack"
-import Members from "../components/about/Members"
+import Members from "../components/about/Member"
 import PageLinks from "../components/PageLinks"
 
 const About = () => (
