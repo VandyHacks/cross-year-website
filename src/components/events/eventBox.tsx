@@ -1,16 +1,16 @@
 import React from "react"
 import events from "./events.json"
 
-interface eventCheck {
+interface EventCheck {
     Title: string;
     Date: string;
     Description: string;
 }
 
-let eventArray :eventCheck[] = events;
+let eventArray :EventCheck[] = events;
 
 
-const EventsBox = () => (
+const EventsBox: React.FC<EventBoxProps> = (props: EventBoxProps) => (
     <div>
         {eventArray.map(value => {
             return (

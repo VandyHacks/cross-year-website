@@ -5,7 +5,7 @@ import NextVandyHackAnnouncement from "../components/about/NextVandyHack"
 import Members from "../components/about/Member"
 import PageLinks from "../components/PageLinks"
 
-const About = () => (
+const About: React.FC<AboutProps> = (props: AboutProps) => (
   <div>
     <h1>About Page</h1>
     <MissionStatement />

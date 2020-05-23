@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const PageLinks = () => (
+const PageLinks: React.FC<PageLinksProps> = (props: PageLinksProps) => (
     <div>
         <Link to="./">Go back to the homepage</Link><p></p>
         <Link to="./About">About Page</Link><p></p>
