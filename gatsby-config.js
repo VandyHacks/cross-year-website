@@ -5,6 +5,14 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/, // See below to configure properly
+        },
+      },
+    },
     `gatsby-plugin-typescript`,
     `gatsby-plugin-react-helmet`,
     {
@@ -16,6 +24,8 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-astroturf",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -32,4 +42,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
