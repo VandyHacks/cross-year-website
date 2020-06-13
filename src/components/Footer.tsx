@@ -37,7 +37,7 @@ const IconsContainer = styled("div")`
   width: 100%;
 
   a:not(:last-child) {
-    padding-right: 3em;
+    padding-right: 2em;
   }
 `;
 
