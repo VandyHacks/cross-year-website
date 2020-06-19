@@ -1,10 +1,42 @@
 import React from "react"
 import member from "./members.json"
+import styled from "astroturf";
+
+const Container = styled("section")`
+  display: grid;
+  grid-template-columns: 80vw;
+  grid-template-rows: 3fr 5fr; 
+  padding: 0 10%;
+  color: #ffffff;
+`;
+
+const TitleContainer = styled("div")`
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+`;
+
+const Title = styled("h2")`
+  font-size: 40px;
+  font-family: Inter;
+  margin: 0;
+`;
+
+const MemberContainer = styled("div")`
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 3vw;
+  grid-auto-row: 50vw;
+  align-items: start;
+`;
+
+const IndividualImage = styled("img")`
+    width: 12vw;
+    height: 25vh;
+`;
 
 interface MemberCheck {
-    name:string;
-    classification:string;
-    committee:string;
+    image:string
 }
 
 function randomizeMembers(array: MemberCheck[]): MemberCheck[] {
@@ -18,19 +50,37 @@ function randomizeMembers(array: MemberCheck[]): MemberCheck[] {
 //random array Object
 let randomArray: MemberCheck[] = randomizeMembers(member);
 
+export const Members: React.FC<{}> = () => (
+    <Container>
+        <TitleContainer>
+            <Title>
+                Members
+            </Title>
+        </TitleContainer>
+        <MemberContainer>
+            {randomArray.map(value => {
+                return (
+                    <IndividualImage src = {value.image} alt={value.image} />
+                )
+            })}
+        </MemberContainer>
+    </Container>
+);
 
-const Members: React.FC<MembersProps> = (props: MembersProps) => (
+
+/*<MemberContainer>
+            {randomArray.map(value => {
+                return (
+                    <img src = {value.image} alt={value.image}/>
+                )
+            })}
+        </MemberContainer>*/
+
+/*{randomArray.map(value => {
+    return (
     <div>
-    <h2>List of Members</h2>
-    {randomArray.map(value => {
-            return (
-            <div>
-                <h3>{value.name}</h3>
-                <li>Year: {value.classification}</li>
-                <li>Committee: {value.committee}</li></div>
-            )
-    })}
-    </div>
-)
-
-export default Members;
+        <h3>{value.name}</h3>
+        <li>Year: {value.classification}</li>
+        <li>Committee: {value.committee}</li></div>
+    )
+})}*/

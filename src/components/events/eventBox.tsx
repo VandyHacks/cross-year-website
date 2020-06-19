@@ -10,7 +10,7 @@ interface EventCheck {
 let eventArray :EventCheck[] = events;
 
 
-const EventsBox: React.FC<EventBoxProps> = (props: EventBoxProps) => (
+const EventsBox: React.FC<{}> = () => (
     <div>
         {eventArray.map(value => {
             return (

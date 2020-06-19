@@ -11,7 +11,7 @@ const Container = styled("a")`
   padding-top: 10px;
 `;
 const Text = styled("p")`
-  font-size: 12px;
+  font-size: 15px;
   font-family: Inter;
   font-weight: regular;
   margin: 0;
@@ -26,7 +26,7 @@ export const ArrowButton: React.FC<{ text: string; href: string }> = ({
   return (
     <Container href={href}>
       <Text>{text}</Text>
-      <RightArrow width="55"/>
+      <RightArrow width="55" height="50"/>
     </Container>
   );
 };

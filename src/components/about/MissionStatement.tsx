@@ -1,10 +1,50 @@
 import React from "react"
+import styled from "astroturf";
 
-const MissionStatement: React.FC<MissionStatementProps> = (props: MissionStatementProps) => (
-    <div>
-        <h2>Mission Statement</h2>
-        <p>Describe what VH does and what it has does in the past. → Text from Marketing</p>
-    </div>
-)
+const Container = styled("section")`
+  display: grid;
+  grid-template-columns: 80vw;
+  grid-template-rows: 1fr 5fr; 
+  padding: 0 10%;
+  color: #ffffff;
+`;
 
-export default MissionStatement;
+const TitleContainer = styled("div")`
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+`;
+
+const DescriptionContainer = styled("div")`
+  display: flex;
+  justify-content: left;
+`;
+
+const Title = styled("h2")`
+  font-size: 40px;
+  font-family: Inter;
+  margin: 0;
+`;
+
+const Text = styled("p")`
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: bold;
+  margin: 0;
+`;
+
+export const MissionStatement: React.FC<{
+    title: string;
+    text: string;
+}> = ({title, text}) => {
+    return (
+        <Container>
+            <TitleContainer>
+                <Title>{title}</Title>
+            </TitleContainer>
+            <DescriptionContainer>
+                <Text>{text}</Text>
+            </DescriptionContainer>
+        </Container>
+    );
+};
