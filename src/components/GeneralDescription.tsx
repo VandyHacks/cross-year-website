@@ -6,8 +6,6 @@ import TextArrow from "../assets/icons/PlayButton.svg"
 const Container = styled("section")`
   display: grid;
   grid-template-columns: 5fr 3fr;
-  padding: 0 8%;
-  min-height: 350px;
   color: #ffffff;
 `;
 
@@ -15,7 +13,6 @@ const TitleContainer = styled("div")`
   display: flex;
   justify-content: left;
   align-items: center;
-  padding-left: 25px;
 `;
 
 const DescriptionContainer = styled("div")`

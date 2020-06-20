@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "astroturf";
-import VHLogo from "../assets/icons/VHSmallLogo.svg"
+import VHLogo from "../assets/icons/VH_Home_Logo.svg"
 
 const Container = styled("div")`
   display: grid;

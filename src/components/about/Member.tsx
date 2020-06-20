@@ -5,7 +5,7 @@ import styled from "astroturf";
 const Container = styled("section")`
   display: grid;
   grid-template-columns: 80vw;
-  grid-template-rows: 3fr 5fr; 
+  grid-template-rows: 10vh 50vh; 
   padding: 0 10%;
   color: #ffffff;
 `;

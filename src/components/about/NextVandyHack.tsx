@@ -6,7 +6,7 @@ import {GeneralDescription} from "../GeneralDescription"
 const Container = styled("section")`
   display: grid;
   grid-template-columns: 80vw;
-  grid-template-rows: 10vh 20vh; 
+  grid-template-rows: 8vh 32vh; 
   padding: 0 10%;
   color: #ffffff;
 `;
@@ -15,7 +15,6 @@ const TitleContainer = styled("div")`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 25px;
 `;
 
 const Title = styled("h2")`
