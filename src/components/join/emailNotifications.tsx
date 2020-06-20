@@ -36,6 +36,23 @@ const EmailInput = styled("input")`
   border-radius: 10px;
 `;
 
+const ButtonInput = styled("button")`
+  display:none
+`;
+
+function foo(){
+  var input = document.getElementById("myInput");
+  input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+     event.preventDefault();
+     document.getElementById("myBtn").click();
+    }
+  });
+  var strInput: string = input.value;
+  console.log(strInput)
+  alert(strInput)
+}
+
 export const EmailNotifications: React.FC<{}> = () => {
     return (
         <Container>
@@ -45,7 +62,8 @@ export const EmailNotifications: React.FC<{}> = () => {
                 </Title>
             </TitleContainer>
             <EmailContainer>
-                <EmailInput type="text" placeholder="error@gmail.com" id="myInput"/>
+                <EmailInput type="email" placeholder="email@gmail.com" id="myInput" />
+                <ButtonInput onClick={foo} id="myBtn" />
             </EmailContainer>
         </Container>
     );

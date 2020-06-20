@@ -66,21 +66,3 @@ export const Members: React.FC<{}> = () => (
         </MemberContainer>
     </Container>
 );
-
-
-/*<MemberContainer>
-            {randomArray.map(value => {
-                return (
-                    <img src = {value.image} alt={value.image}/>
-                )
-            })}
-        </MemberContainer>*/
-
-/*{randomArray.map(value => {
-    return (
-    <div>
-        <h3>{value.name}</h3>
-        <li>Year: {value.classification}</li>
-        <li>Committee: {value.committee}</li></div>
-    )
-})}*/

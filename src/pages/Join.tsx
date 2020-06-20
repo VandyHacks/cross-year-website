@@ -8,7 +8,7 @@ import { EmailNotifications } from "../components/join/emailNotifications";
 
 const Main = styled("body")`
   width: 100vw;
-  height: 250vh;
+  height: 100vh;
   background-color: #0000DE;
   display:grid;
   grid-template-columns: 100vw;
