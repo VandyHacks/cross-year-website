@@ -3,8 +3,8 @@ import styled from "astroturf";
 
 const Container = styled("section")`
   display: grid;
-  grid-template-columns: 80vw;
-  grid-template-rows: 10vh 25vh; 
+  grid-template-columns: 60vw;
+  grid-template-rows: 10vh 20vh; 
   padding: 0 10%;
   color: #ffffff;
 `;
@@ -33,7 +33,7 @@ const Text = styled("p")`
   margin: 0;
 `;
 
-export const MissionStatement: React.FC<{
+export const BoardApps: React.FC<{
     title: string;
     text: string;
 }> = ({title, text}) => {

@@ -1,9 +1,9 @@
 import React from "react"
+import styled from "astroturf";
 
 import {MissionStatement} from "../components/about/MissionStatement"
 import {Members} from "../components/about/Member"
 import {PageLinks} from "../components/PageLinks"
-import styled from "astroturf";
 import { NextVandyHackAnnouncement } from "../components/about/NextVandyHack";
 import {Footer} from "../components/Footer"
 
@@ -13,7 +13,7 @@ const Main = styled("body")`
   background-color: #0000DE;
   display:grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 7vh 20vh 42vh 135vh 15vh;
+  grid-template-rows: 7vh 25vh 42vh 135vh 15vh;
   background-image: url("../images/Big_VH_Logo.png");
   background-repeat: no-repeat;
   background-size: 40%; 
