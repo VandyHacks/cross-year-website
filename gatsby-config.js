@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-react-svg",
+      resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
           include: /assets/, // See below to configure properly
@@ -24,8 +24,16 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    "gatsby-plugin-postcss",
-    "gatsby-plugin-astroturf",
+    `gatsby-plugin-css-literal-loader`,
+    {
+      resolve: 'gatsby-plugin-astroturf',
+      // defaults:
+      options: {
+        tagName: 'css',
+        styledTag: 'styled',
+        extension: '.module.css',
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

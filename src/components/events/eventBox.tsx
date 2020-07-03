@@ -3,7 +3,7 @@ import styled from "astroturf";
 
 import events from "./events.json"
 
-const T1BG = styled("div")`
+const T1BG2017 = styled("div")`
   transform: translate3d(0, 0, 0);
   position: absolute;
   width: 100%; height: 100%;
@@ -11,21 +11,43 @@ const T1BG = styled("div")`
   background-size: cover;
   background-position: center center;
   transition: filter 0.5s ease;
-  filter: grayscale(100%);
+  background-image: url("../../images/2017_Image.svg");
+`;
+
+const T1BG2018 = styled("div")`
+  transform: translate3d(0, 0, 0);
+  position: absolute;
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+  background-size: cover;
+  background-position: center center;
+  transition: filter 0.5s ease;
+  background-image: url("../../images/2018_image.jpg");
+`;
+
+const T1BG2019 = styled("div")`
+  transform: translate3d(0, 0, 0);
+  position: absolute;
+  width: 100%; height: 100%;
+  top: 0; left: 0;
+  background-size: cover;
+  background-position: center center;
+  transition: filter 0.5s ease;
+  background-image: url("../../images/2019_image.jpg");
 `;
 
 const T1Year = styled("div")`
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-250%);
   z-index: 1;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   
   p {
     font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 1.728rem;
+    font-size: 3rem;
     line-height: 0;
   }
 `;
@@ -51,9 +73,8 @@ const T1Content = styled("div")`
 const T1Item = styled("div")`
   transform: translate3d(0, 0, 0);
   position: relative;
-  width: 25%;
-  height: 100vh;
-  min-height: 600px;
+  width: 33.33%;
+  height: 75vh;
   color: #fff;
   overflow: hidden;
   transition: width 0.5s ease;
@@ -92,15 +113,11 @@ const T1Item = styled("div")`
       transform: translate3d(0, 0, 0) translateY(0);
       transition: opacity 1s ease, transform 1s ease 0.25s;
     }
-    
+
     ${T1Content} {
       opacity: 1;
       transform: translateY(0);
       transition: all 0.75s ease 0.5s;
-    }
-
-    ${T1BG} {
-      filter: grayscale(0);
     }
   }
 `;
@@ -108,16 +125,35 @@ const T1Item = styled("div")`
 const Timeline = styled("section")`
     display: flex;
     background-color: #031625;
-
-    ${T1Item}:hover &{
-        width: 23.3333%;
-    }
+    background-image: url("../../images/events_background.jpg");
 `;
 
 
 
 export const EventsBox: React.FC<{}> = () => {
     return (
-        <Timeline></Timeline>
+        <Timeline>
+          <T1Item>
+            <T1BG2017 />
+            <T1Year>
+              <p>2017</p>
+            </T1Year>
+            <T1Content>
+              <h1>VANDYHACKS VI</h1>
+            </T1Content>
+          </T1Item>
+          <T1Item>
+            <T1BG2018 />
+            <T1Year>
+              <p>2018</p>
+            </T1Year>
+          </T1Item>
+          <T1Item>
+            <T1BG2019 />
+            <T1Year>
+              <p>2019</p>
+            </T1Year>
+          </T1Item>
+        </Timeline>
     );  
 };
