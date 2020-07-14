@@ -25,6 +25,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-css-literal-loader`,
+    'gatsby-plugin-scss-typescript',
     {
       resolve: 'gatsby-plugin-astroturf',
       // defaults:
