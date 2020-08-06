@@ -7,6 +7,7 @@ import { Footer } from "../components/Footer";
 import { GeneralDescription } from "../components/GeneralDescription";
 
 const Main = styled("body")`
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
   width: 100vw;
   height: 50vw;
   background-color: #0000DE;

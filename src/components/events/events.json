@@ -1,12 +1,28 @@
-[
-    {
-        "Title": "Event 1",
-        "Date": "1/1/27",
-        "Description": "Something happened here"
+{
+    "VandyHacksVI" : {
+        "Title" : "VANDYHACKS VI",
+        "Event1Title" : "Event",
+        "Event2Title" : "Event",
+        "Image1" : "/images/EventImages/events_background.jpg",
+        "Image2" : "/images/EventImages/2017_Image.jpg",
+        "BackgroundImage" : "../../images/VandyHacksVIBackground.png",
+        "scroll" : "/images/EventImages/scroll.png",
+        "nextPage" : "./HelloWorld",
+        "bgcolor" : "#0063C6",
+        "Event1" : "et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
+        "Event2" : "et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Part 2"
     },
-    {
-        "Title": "Event 2",
-        "Date": "1/1/28",
-        "Description": "Something happened here"
+    "HelloWorld" : {
+        "Title" : "Hello World Workshop",
+        "Event1Title" : "Event",
+        "Event2Title" : "Event",
+        "Image1" : "/images/EventImages/HelloWorldDesk.png",
+        "Image2" : "/images/EventImages/HelloWorldIrfan.png",
+        "BackgroundImage" : "../../images/VandyHacksVIBackground.png",
+        "scroll" : "/images/EventImages/scroll.png",
+        "nextPage" : "/",
+        "bgcolor" : "#8900C6",
+        "Event1" : "et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
+        "Event2" : "et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Part 2"
     }
-]
+}
