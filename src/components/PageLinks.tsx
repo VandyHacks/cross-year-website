@@ -7,7 +7,6 @@ const Container = styled("div")`
   grid-template-columns: 50vw 15vw 15vw 15vw;
   color: #ffffff;
   padding-top: 1%;
-  position: fixed;
 `;
 
 const TextContainer = styled("a")`
