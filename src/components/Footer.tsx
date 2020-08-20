@@ -8,8 +8,11 @@ import Twitter from "../assets/icons/twitter.svg";
 import Youtube from "../assets/icons/youtube.svg";
 
 const FooterContainer = styled("footer")`
-  width: 100vw;
+  width: 100%;
   color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 3vh;
   background-color: #ff9086;
   height: 125px;
   display: grid;

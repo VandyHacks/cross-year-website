@@ -2,7 +2,7 @@ import React from "react"
 import styled from "astroturf";
 
 import {PageLinks} from "../../components/PageLinks";
-import {Footer} from "../../components/Footer"
+import {Footer} from "../../components/Footer";
 import events from "../../components/events/events.json"
 
 var name:string = "HelloWorld";
@@ -45,7 +45,7 @@ const Title = styled("h2")`
 const DescriptionContainer = styled("div")`
   display: grid;
   justify-content: center;
-  grid-template-columns: 48.9vw 2.2vw 48.9vw;
+  grid-template-columns: 50vw 50vw;
 `;
 
 const EventContainer = styled("div")`
@@ -129,38 +129,33 @@ const ScrollImage = styled("img")`
 `;
 
 
-
 export const HelloWorld: React.FC<{}> = () => (
-    <Main style={{backgroundColor : bgcolor}}>
-        <PageLinks />
-        <TitleContainer>
-          <Title>{title}</Title>
-        </TitleContainer>
-        <DescriptionContainer>
-          <EventContainer>
-            <Event1Container>
-              <EventTitle>{event1title}</EventTitle>
-              <EventText>{event1Description}</EventText>
-            </Event1Container>
-            <ImageDivLeft>
-              <LeftImage src={image1} alt={image1}/>
-            </ImageDivLeft>
-          </EventContainer>
-          <ScrollContainer href="/">
-            <ScrollImage src={scroll} />
-          </ScrollContainer>
-          <EventContainer>
-            <ImageDivRight>
-              <RightImage src={image2} alt={image2}/>
-            </ImageDivRight>
-            <Event2Container>
-              <EventTitle>{event2title}</EventTitle>
-              <EventText>{event2Description}</EventText>
-            </Event2Container>
-          </EventContainer>
-        </DescriptionContainer>
-        <Footer/>
-    </Main>
+  <Main style={{backgroundColor : bgcolor}}>
+    <PageLinks />
+    <TitleContainer>
+      <Title>{title}</Title>
+    </TitleContainer>
+    <DescriptionContainer>
+      <EventContainer>
+        <Event1Container>
+          <EventTitle>{event1title}</EventTitle>
+          <EventText>{event1Description}</EventText>
+        </Event1Container>
+        <ImageDivLeft>
+          <LeftImage src={image1} alt={image1}/>
+        </ImageDivLeft>
+      </EventContainer>
+      <EventContainer>
+        <ImageDivRight>
+          <RightImage src={image2} alt={image2}/>
+        </ImageDivRight>
+        <Event2Container>
+          <EventTitle>{event2title}</EventTitle>
+          <EventText>{event2Description}</EventText>
+        </Event2Container>
+      </EventContainer>
+    </DescriptionContainer>
+    <Footer/>
+  </Main>
 );
 
-export default HelloWorld;
