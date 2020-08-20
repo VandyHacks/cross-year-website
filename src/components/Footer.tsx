@@ -12,7 +12,7 @@ const FooterContainer = styled("footer")`
   color: #ffffff;
   position: fixed;
   left: 0;
-  bottom: 3vh;
+  bottom: 2vh;
   background-color: #ff9086;
   height: 125px;
   display: grid;
@@ -60,9 +60,7 @@ const Link = styled("a")`
   padding-bottom: 2px;
 `;
 
-const IconLink = styled("a")`
-  text-decoration: none;
-  color: #ffffff;
+const IconLink = styled(Link)`
   margin-right: 0.9em;
 `;
 
