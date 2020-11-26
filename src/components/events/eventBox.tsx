@@ -12,10 +12,10 @@ export const EventsBox: React.FC<{}> = () => {
         <p>2019</p>
       </div>
       <div className="tl-content">
-        <a className="text-container" href="./2019_Events/Events2019">
+        <a className="text-container" href="../2019_Events/Events2019">
           <p className="text-container-text">VandyHacks VI</p>
         </a>
-        <Link className="text-container" to="./2019_Events/Events2019#HelloWorld">
+        <Link className="text-container" to="../2019_Events/Events2019#HelloWorld">
           <p className="text-container-text">Hello World</p>
         </Link>
       </div>

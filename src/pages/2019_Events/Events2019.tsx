@@ -1,12 +1,12 @@
 import React from "react"
 import styled from "astroturf";
-import {HelloWorld} from "./HelloWorld-Copy"
-import {VandyHacksVI} from "./VandyHacksVI-Copy"
+import {HelloWorld} from "../../components/events/HelloWorld-Copy"
+import {VandyHacksVI} from "../../components/events/VandyHacksVI-Copy"
 import {PageLinks} from "../../components/PageLinks";
 import {Footer} from "../../components/Footer";
-import "./2019Events.scss"
+import "../../components/events/2019Events.scss"
 
-export const Events2019: React.FC<{}> = () => (
+const Events2019: React.FC<{}> = () => (
     <div className="timeline-header">
     <PageLinks />
     <div className="timeline-container" id="timeline-1">

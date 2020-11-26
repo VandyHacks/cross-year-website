@@ -1,9 +1,9 @@
 import React from "react"
 import styled from "astroturf";
 
-import {PageLinks} from "../../components/PageLinks";
-import {Footer} from "../../components/Footer";
-import events from "../../components/events/events.json"
+import {PageLinks} from "../../PageLinks";
+import {Footer} from "../../Footer";
+import events from "./events.json"
 
 var name:string = "HelloWorld";
 var title:string =  events[name].Title;
@@ -129,7 +129,7 @@ const ScrollImage = styled("img")`
 `;
 
 
-export const HelloWorld: React.FC<{}> = () => (
+const HelloWorld: React.FC<{}> = () => (
   <Main style={{backgroundColor : bgcolor}}>
     <PageLinks />
     <TitleContainer>
@@ -159,3 +159,4 @@ export const HelloWorld: React.FC<{}> = () => (
   </Main>
 );
 
+export default HelloWorld; 

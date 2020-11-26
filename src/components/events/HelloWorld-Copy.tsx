@@ -2,7 +2,7 @@ import React from "react"
 import styled from "astroturf";
 
 
-import events from "../../components/events/events.json"
+import events from "./events.json"
 import "./2019Events.scss"
 
 var name:string = "HelloWorld";

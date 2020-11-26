@@ -1,9 +1,9 @@
 import React from "react"
 import styled from "astroturf";
 
-import {PageLinks} from "../../components/PageLinks";
-import {Footer} from "../../components/Footer"
-import events from "../../components/events/events.json"
+import {PageLinks} from "../../PageLinks";
+import {Footer} from "../../Footer"
+import events from "./events.json"
 
 var name:string = "VandyHacksVI";
 var title:string =  events[name].Title;
@@ -130,8 +130,7 @@ const ScrollImage = styled("img")`
 `;
 
 
-
-export const VandyHacksVI: React.FC<{}> = () => (
+const VandyHacksVI: React.FC<{}> = () => (
   <Main style={{backgroundColor : bgcolor}}>
       <PageLinks />
       <TitleContainer>
@@ -160,3 +159,5 @@ export const VandyHacksVI: React.FC<{}> = () => (
       <Footer/>
   </Main>
 );
+
+export default VandyHacksVI; 
