@@ -4,9 +4,7 @@ import VHLogo from "../assets/icons/VH_Home_Logo.svg"
 
 const Container = styled("div")`
   display: grid;
-  grid-template-columns: 50vw 15vw 15vw 15vw;
   color: #ffffff;
-  padding-top: 1%;
 `;
 
 const TextContainer = styled("a")`
@@ -18,9 +16,9 @@ const TextContainer = styled("a")`
 `;
 
 const Text = styled("p")`
-  font-size: 20px;
+  font-size: 1rem;
   font-family: Inter;
-  font-weight: regular;
+  font-weight: 300;
   margin: 0;
   color: #FFFFFF;
 `;
@@ -36,17 +34,17 @@ const HomeContainer = styled("a")`
 
 
 export const PageLinks: React.FC<{}> = () => (
-    <Container>
+    <Container className="headers">
       <HomeContainer href="/">
         <VHLogo width="45" height="45" />
       </HomeContainer>
-      <TextContainer href="/About" >
+      <TextContainer className="headers-text" href="/About" >
         <Text>About</Text>
       </TextContainer>
-      <TextContainer href="/Events">
+      <TextContainer className="headers-text" href="/Events">
         <Text>Events</Text>
       </TextContainer>
-      <TextContainer href="/Join">
+      <TextContainer className="headers-text" href="/Join">
         <Text>Join</Text>
       </TextContainer>
     </Container>

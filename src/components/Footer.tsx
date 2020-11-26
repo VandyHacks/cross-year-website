@@ -10,7 +10,6 @@ import Youtube from "../assets/icons/youtube.svg";
 const FooterContainer = styled("footer")`
   width: 100%;
   color: #ffffff;
-  position: fixed;
   left: 0;
   bottom: 2vh;
   background-color: #ff9086;
@@ -64,7 +63,15 @@ const IconLink = styled(Link)`
   margin-right: 0.9em;
 `;
 
+const Pudding = styled("div")`
+  width: 100%;
+  left: 0;
+  opacity: 0;
+  padding-top: 5vh;
+`;
+
 export const Footer: React.FC<{}> = () => (
+  <>
   <FooterContainer>
     <InfoWrapper>
       <Title>Links</Title>
@@ -111,4 +118,6 @@ export const Footer: React.FC<{}> = () => (
       </InfoContainer>
     </InfoWrapper>
   </FooterContainer>
+  <Pudding />
+  </>
 );

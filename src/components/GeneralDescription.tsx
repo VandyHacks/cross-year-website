@@ -5,7 +5,6 @@ import TextArrow from "../assets/icons/PlayButton.svg"
 
 const Container = styled("section")`
   display: grid;
-  grid-template-columns: 5fr 3fr;
   color: #ffffff;
 `;
 
@@ -22,19 +21,15 @@ const DescriptionContainer = styled("div")`
 `;
 
 const Title = styled("h2")`
-  font-size: 40px;
   font-family: Inter;
   margin: 0;
 `;
 const Text = styled("p")`
-  font-size: 18px;
   font-family: Inter;
-  font-weight: bold;
-  margin: 0;
 `;
 
 const SubText = styled("sub")`
-  font-size: 30px;
+  font-size: 1.3rem;
   font-family: Inter;
   font-weight: bold;
   margin: 0;
@@ -55,7 +50,7 @@ export const GeneralDescription: React.FC<{
   buttonLink: string;
 }> = ({ text, title, subText, buttonText, buttonLink }) => {
   return (
-    <Container>
+    <Container className="index-description">
       <TitleContainer>
         <Title>
           {title}
@@ -68,7 +63,7 @@ export const GeneralDescription: React.FC<{
         </ArrowContainer>
       </TitleContainer>
       <DescriptionContainer>
-        <Text>{text}</Text>
+        <Text className="index-description-text">{text}</Text>
         <ArrowButton href={buttonLink} text={buttonText} />
       </DescriptionContainer>
     </Container>

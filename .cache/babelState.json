@@ -13,6 +13,14 @@
         {
           "name": "/Users/zouxue/Desktop/internship3.0/VandyHacksDev2.0/cross-year-website/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "develop",
+          "options": {
+            "plugins": [],
+            "ssr": false
+          }
         }
       ],
       "presets": [
@@ -41,6 +49,14 @@
         {
           "name": "/Users/zouxue/Desktop/internship3.0/VandyHacksDev2.0/cross-year-website/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "develop-html",
+          "options": {
+            "plugins": [],
+            "ssr": false
+          }
         }
       ],
       "presets": [
@@ -69,6 +85,14 @@
         {
           "name": "/Users/zouxue/Desktop/internship3.0/VandyHacksDev2.0/cross-year-website/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "build-html",
+          "options": {
+            "plugins": [],
+            "ssr": true
+          }
         }
       ],
       "presets": [
@@ -97,6 +121,14 @@
         {
           "name": "/Users/zouxue/Desktop/internship3.0/VandyHacksDev2.0/cross-year-website/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
+        },
+        {
+          "name": "babel-plugin-styled-components",
+          "stage": "build-javascript",
+          "options": {
+            "plugins": [],
+            "ssr": true
+          }
         }
       ],
       "presets": [

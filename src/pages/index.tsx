@@ -9,14 +9,12 @@ import { GeneralDescription } from "../components/GeneralDescription";
 const Main = styled("body")`
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
   width: 100vw;
-  height: 50vw;
   background-color: #0000DE;
   display:grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 7vh 70vh 22vh;
+  grid-template-rows: 20vh 70vh 50vh;
   background-image: url("../images/Big_VH_Logo.png");
   background-repeat: no-repeat;
-  background-size: 40%;
 `;
 
 const GeneralBodyContainer = styled("div")`
@@ -24,6 +22,13 @@ const GeneralBodyContainer = styled("div")`
   grid-template-columns: 80vw;
   padding: 0 10%;
   color: #ffffff;
+`;
+
+const Padding = styled("div")`
+  width: 100%;
+  left: 0;
+  opacity: 0;
+  padding-top: 60vh;
 `;
 
 const IndexPage: React.FC = () => (
@@ -40,6 +45,7 @@ const IndexPage: React.FC = () => (
         buttonLink="#"
       />
     </GeneralBodyContainer>
+    <Padding />
     <Footer />
   </Main>
 );

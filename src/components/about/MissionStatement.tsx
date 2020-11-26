@@ -5,7 +5,7 @@ const Container = styled("section")`
   display: grid;
   grid-template-columns: 80vw;
   grid-template-rows: 10vh 25vh; 
-  padding: 0 10%;
+  padding: 8% 10%;
   color: #ffffff;
 `;
 
@@ -21,15 +21,12 @@ const DescriptionContainer = styled("div")`
 `;
 
 const Title = styled("h2")`
-  font-size: 40px;
   font-family: Inter;
   margin: 0;
 `;
 
 const Text = styled("p")`
-  font-size: 18px;
   font-family: Inter;
-  font-weight: bold;
   margin: 0;
 `;
 
@@ -38,7 +35,7 @@ export const MissionStatement: React.FC<{
     text: string;
 }> = ({title, text}) => {
     return (
-        <Container>
+        <Container className="about-content">
             <TitleContainer>
                 <Title>{title}</Title>
             </TitleContainer>

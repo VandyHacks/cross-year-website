@@ -24,15 +24,16 @@ const Title = styled("h2")`
 
 const MemberContainer = styled("div")`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   grid-gap: 3vw;
   grid-auto-row: 50vw;
   align-items: start;
 `;
 
 const IndividualImage = styled("img")`
-    width: 12vw;
-    height: 25vh;
+    border-radius: 18px;
+    width: 120px;
+    height: 160px;
 `;
 
 interface MemberCheck {
@@ -51,7 +52,7 @@ function randomizeMembers(array: MemberCheck[]): MemberCheck[] {
 let randomArray: MemberCheck[] = randomizeMembers(member);
 
 export const Members: React.FC<{}> = () => (
-    <Container>
+    <Container className="about-content">
         <TitleContainer>
             <Title>
                 Members
