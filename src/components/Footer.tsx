@@ -77,36 +77,36 @@ export const Footer: React.FC<{}> = () => (
       <Title>Links</Title>
       <InfoContainer>
         <Link href="#">Applications</Link>
-        <Link href="#">Code of Conduct</Link>
+        <Link href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct</Link>
         <Link href="#">About</Link>
       </InfoContainer>
     </InfoWrapper>
     <InfoWrapper>
       <Title>Companies</Title>
       <InfoContainer>
-        <Link href="#">Our sponsors</Link>
-        <Link href="#">Contacts</Link>
+        {/* <Link href="#">Our sponsors</Link> */}
+        <Link href="#">Sponsorship Contacts</Link>
       </InfoContainer>
     </InfoWrapper>
     <InfoWrapper>
       <Title>Social Media</Title>
       <IconsContainer>
-        <IconLink href="#" target="_blank">
+        <IconLink href="https://www.facebook.com/vandyhacks/" target="_blank">
           <Facebook width="45" height="45" />
         </IconLink>
-        <IconLink href="#" target="_blank">
+        <IconLink href="https://www.instagram.com/vandyhacks/" target="_blank">
           <Instagram width="45" height="45" />
         </IconLink>
-        <IconLink href="#" target="_blank">
+        <IconLink href="https://twitter.com/vandyhacks" target="_blank">
           <Twitter width="45" height="45" />
         </IconLink>
-        <IconLink href="#" target="_blank">
+        <IconLink href="https://www.youtube.com/channel/UC-sXkznjkmHLjpA5nlfdswg/" target="_blank">
           <Youtube width="45" height="45" />
         </IconLink>
-        <IconLink href="#" target="_blank">
+        <IconLink href="https://www.twitch.tv/vandyhacks" target="_blank">
           <Twitch width="45" height="45" />
         </IconLink>
-        <IconLink href="#" target="_blank">
+        <IconLink href="https://github.com/VandyHacks" target="_blank">
           <Github width="45" height="45" />
         </IconLink>
       </IconsContainer>
