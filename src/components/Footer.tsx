@@ -42,11 +42,12 @@ const IconsContainer = styled("div")`
 const Title = styled("h3")`
   font-family: Inter;
   font-size: 14px;
-  writing-mode: sideways-lr;
+  writing-mode: vertical-lr;
   font-weight: normal;
   text-orientation: mixed;
   text-transform: uppercase;
-  padding-right: 1em;
+  padding-left: 1em;
+  transform: rotate(180deg);
   margin: auto 0;
 `;
 
