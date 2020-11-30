@@ -9,16 +9,15 @@ import { EmailNotifications } from "../components/join/emailNotifications";
 const Main = styled("body")`
   width: 100vw;
   background-color: #0000DE;
-  display:grid;
+  display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 10vh 40vh 30vh 20vh;
   background-image: url("../images/Big_VH_Logo.png");
   background-repeat: no-repeat;
 `;
 
 
 const Join: React.FC<{}> = () => (
-    <Main>
+    <Main className="join">
         <PageLinks />
         <BoardApps 
         title="Board Applications in January"

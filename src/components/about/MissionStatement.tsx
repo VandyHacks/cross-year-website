@@ -5,7 +5,7 @@ const Container = styled("section")`
   display: grid;
   grid-template-columns: 80vw;
   grid-template-rows: 10vh 25vh; 
-  padding: 8% 10%;
+  padding: 20vh 10%;
   color: #ffffff;
 `;
 

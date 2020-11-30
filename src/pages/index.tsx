@@ -22,13 +22,14 @@ const GeneralBodyContainer = styled("div")`
   grid-template-columns: 80vw;
   padding: 0 10%;
   color: #ffffff;
+  margin-top: 15vh;
 `;
 
 
 const IndexPage: React.FC = () => (
   <Main className="index-main">
     <PageLinks />
-    <GeneralBodyContainer>
+    <GeneralBodyContainer className="index-content">
       <GeneralDescription
         title="VANDYHACKS VII"
         text={

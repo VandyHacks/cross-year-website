@@ -3,16 +3,15 @@ import styled from "astroturf";
 
 const Container = styled("section")`
   display: grid;
-  grid-template-columns: 60vw;
-  grid-template-rows: 10vh 20vh; 
-  padding: 0 10%;
+  grid-template-rows: 20vh 40vh; 
+  padding: 20vh 10%;
   color: #ffffff;
 `;
 
 const TitleContainer = styled("div")`
   display: flex;
   justify-content: flex-start;
-  align-items: left;
+  align-items: center;
 `;
 
 const DescriptionContainer = styled("div")`
@@ -35,9 +34,9 @@ export const BoardApps: React.FC<{
     text: string;
 }> = ({title, text}) => {
     return (
-        <Container>
-            <TitleContainer>
-                <Title>{title}</Title>
+        <Container className="join-content">
+            <TitleContainer >
+                <Title className="long-title">{title}</Title>
             </TitleContainer>
             <DescriptionContainer>
                 <Text>{text}</Text>

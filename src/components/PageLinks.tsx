@@ -3,6 +3,9 @@ import styled from "astroturf";
 import VHLogo from "../assets/icons/VH_Home_Logo.svg"
 
 const Container = styled("div")`
+  position: fixed;
+  width: 100%;
+  
   display: grid;
   color: #ffffff;
 `;
