@@ -12,7 +12,7 @@ const Main = styled("body")`
   background-color: #0000DE;
   display:grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 20vh 70vh 50vh;
+  
   background-image: url("../images/Big_VH_Logo.png");
   background-repeat: no-repeat;
 `;
@@ -24,15 +24,9 @@ const GeneralBodyContainer = styled("div")`
   color: #ffffff;
 `;
 
-const Padding = styled("div")`
-  width: 100%;
-  left: 0;
-  opacity: 0;
-  padding-top: 60vh;
-`;
 
 const IndexPage: React.FC = () => (
-  <Main>
+  <Main className="index-main">
     <PageLinks />
     <GeneralBodyContainer>
       <GeneralDescription
@@ -45,7 +39,6 @@ const IndexPage: React.FC = () => (
         buttonLink="#"
       />
     </GeneralBodyContainer>
-    <Padding />
     <Footer />
   </Main>
 );

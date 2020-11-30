@@ -21,15 +21,12 @@ const DescriptionContainer = styled("div")`
 `;
 
 const Title = styled("h2")`
-  font-size: 40px;
   font-family: Inter;
   margin: 0;
 `;
 
 const Text = styled("p")`
-  font-size: 18px;
   font-family: Inter;
-  font-weight: bold;
   margin: 0;
 `;
 

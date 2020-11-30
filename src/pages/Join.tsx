@@ -8,14 +8,12 @@ import { EmailNotifications } from "../components/join/emailNotifications";
 
 const Main = styled("body")`
   width: 100vw;
-  height: 100vh;
   background-color: #0000DE;
   display:grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 7vh 30vh 40vh 13vh;
+  grid-template-rows: 10vh 40vh 30vh 20vh;
   background-image: url("../images/Big_VH_Logo.png");
   background-repeat: no-repeat;
-  background-size: 40%; 
 `;
 
 
