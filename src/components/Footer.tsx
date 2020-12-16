@@ -14,9 +14,11 @@ const FooterContainer = styled("footer")`
   bottom: 2vh;
   background-color: #ff9086;
   height: 125px;
+  min-width: 1250px;
   display: grid;
   grid-template-columns: 15fr 15fr 30fr 25fr;
   padding: 0 5%;
+  overflow-x: auto;
 `;
 
 const InfoWrapper = styled("div")`
@@ -34,7 +36,7 @@ const InfoContainer = styled("div")`
 
 const IconsContainer = styled("div")`
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   width: 100%;
 `;
@@ -77,9 +79,8 @@ export const Footer: React.FC<{}> = () => (
     <InfoWrapper>
       <Title>Links</Title>
       <InfoContainer>
-        <Link href="#">Applications</Link>
+        <Link href="https://apply.vandyhacks.org/">Applications</Link>
         <Link href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct</Link>
-        <Link href="#">About</Link>
       </InfoContainer>
     </InfoWrapper>
     <InfoWrapper>
@@ -115,7 +116,7 @@ export const Footer: React.FC<{}> = () => (
     <InfoWrapper>
       <Title>Contact us</Title>
       <InfoContainer>
-        <Link href="#">info@vandyhacks.org</Link>
+        <Link href="mailto:info@vandyhacks.org">info@vandyhacks.org</Link>
       </InfoContainer>
     </InfoWrapper>
   </FooterContainer>
