@@ -1,4 +1,5 @@
-body, main {
+body,
+main {
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -9,7 +10,7 @@ body, main {
 }
 
 /* Use a media query to scale the background image */
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 600px) {
   body {
     background-size: 173vw;
     background-position: 0% 50%;
@@ -26,7 +27,6 @@ p {
 
 .index-description {
   grid-template-columns: 48fr 52fr;
-
 }
 .index-description-text {
   margin-left: 2rem;
@@ -37,6 +37,21 @@ p {
 .headers {
   grid-template-columns: 52vw 15vw 15vw 15vw;
   padding-top: 1%;
+}
+.foot {
+  height: 125px;
+  grid-template-columns: 15fr 15fr 30fr 25fr;
+}
+.footerTitle {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  text-transform: uppercase;
+  padding-left: 1em;
+  transform: rotate(180deg);
+}
+.socialButton {
+  width: 45px;
+  height: 45px;
 }
 
 /* for mobile design */
@@ -62,6 +77,35 @@ p {
   .headers-text {
     padding-top: 4rem;
   }
+
+  /* For footer */
+  .foot {
+    height: 420px;
+    grid-template-columns: 100fr;
+    grid-template-rows: 25fr 25fr 25fr 25fr;
+    padding-top: 2em;
+  }
+  .footerTitle {
+    writing-mode: unset;
+    font-size: 16px;
+    transform: rotate(0deg);
+    text-orientation: unset;
+    padding-left: 0;
+  }
+  .footerInfoWrapper {
+    display: block;
+    padding-left: 1em;
+    /* flex-direction: column;
+    padding-left: 1em;
+    justify-content: space-around; */
+  }
+  .footerInfoWrapper div {
+    margin-top: 1em;
+  }
+  .socialButton {
+    width: 36px;
+    height: 36px;
+  }
 }
 
 /* for animation effect */
@@ -73,7 +117,7 @@ p {
   from {
     opacity: 0;
     margin-top: 30%;
-    width: 100%; 
+    width: 100%;
   }
 
   to {
