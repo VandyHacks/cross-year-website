@@ -10,7 +10,6 @@ const Container = styled("section")`
   color: #ffffff;
   align-items: center;
   background-color: #001EDE;
-  height: 20vh;
 `;
 
 const TitleContainer = styled("div")`
@@ -20,7 +19,6 @@ const TitleContainer = styled("div")`
 `;
 
 const Title = styled("h2")`
-  font-size: 40px;
   font-family: Inter;
   margin: 0;
 `;
@@ -55,7 +53,7 @@ function foo(){
 
 export const EmailNotifications: React.FC<{}> = () => {
     return (
-        <Container>
+        <Container className="join-content">
             <TitleContainer>
                 <Title>
                     Sign up for Email Notifications

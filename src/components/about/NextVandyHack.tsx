@@ -16,7 +16,6 @@ const TitleContainer = styled("div")`
 `;
 
 const Title = styled("h2")`
-  font-size: 40px;
   font-family: Inter;
   margin: 0;
 `;
@@ -30,10 +29,9 @@ const Text = styled("p")`
 export const NextVandyHackAnnouncement: React.FC<{}> = () => (
   <Container className="about-content">
     <TitleContainer>
-      <Title>
+      <Title className="long-title">
         Upcoming Hackathons
       </Title>
-      
     </TitleContainer>
     <Text>
       Stay tuned!

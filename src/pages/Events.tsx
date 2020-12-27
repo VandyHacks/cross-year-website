@@ -11,7 +11,7 @@ const Main = styled("body")`
   background-color: #0000DE;
   display:grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 8vh 75vh 13vh;
+  grid-template-rows: 75vh 13vh;
   background-image: url("../images/Big_VH_Logo.png");
   background-repeat: no-repeat;
   background-size: 40%; 
