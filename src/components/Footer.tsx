@@ -78,7 +78,7 @@ export const Footer: React.FC<{}> = () => (
       <Title className="footerTitle">Companies</Title>
       <InfoContainer>
         {/* <Link href="#">Our sponsors</Link> */}
-        <Link href="#">Sponsorship Contacts</Link>
+        <Link href="mailto:sponsorship@vandyhacks.org">Contact Sponsorship</Link>
       </InfoContainer>
     </InfoWrapper>
     <InfoWrapper className="footerInfoWrapper">
