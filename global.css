@@ -133,6 +133,7 @@ p {
   .socialButton {
     width: 36px;
     height: 36px;
+  }
   /* join page layout */
   .join {
     grid-template-rows: 300vw 100vw 40vw;
