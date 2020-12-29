@@ -46,7 +46,7 @@ p {
 }
 
 .about {
-  grid-template-rows: 56vh 23vh 120vh 14vh;
+  grid-template-rows: 56vh 23vh 200vh 14vh;
 }
 
 .join {
@@ -94,7 +94,7 @@ p {
 
   /* about page */
   .about {
-    grid-template-rows: 250vw 60vw 450vw 40vw;
+    grid-template-rows: 250vw 60vw 1030vw 40vw;
   }
 
   /* for page links / headers */
@@ -133,6 +133,7 @@ p {
   .socialButton {
     width: 36px;
     height: 36px;
+  }
   /* join page layout */
   .join {
     grid-template-rows: 300vw 100vw 40vw;
