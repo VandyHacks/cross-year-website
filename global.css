@@ -150,10 +150,10 @@ p {
 }
 
 /* for animation effect */
-.index-description, .about-content, .join-content {
+/* .index-description, .about-content, .join-content {
   animation-duration: 1s;
   animation-name: slidedown;
-}
+} */
 
 @keyframes slidedown {
   from {
