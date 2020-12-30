@@ -4,7 +4,7 @@ import styled from "astroturf";
 import {PageLinks} from "../components/PageLinks"
 import {Footer} from "../components/Footer"
 import { BoardApps } from "../components/join/boardApps";
-import { EmailNotifications } from "../components/join/emailNotifications";
+import { JoinBox } from "../components/join/joinBox";
 
 const Main = styled("body")`
   width: 100vw;
@@ -25,7 +25,7 @@ const Join: React.FC<{}> = () => (
             "Please submit by 2021. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
         }
         />
-        <EmailNotifications />
+        <JoinBox />
         <Footer />
     </Main>
 )
