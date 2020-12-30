@@ -4,11 +4,11 @@ import { string } from "prop-types";
 
 
 const Container = styled("section")`
-  display: grid;
-  grid-template-columns: 50vw 50vw;
-  padding: 0 10%;
+  display: flex;
+  padding: 10px;
   color: #ffffff;
   align-items: center;
+  justify-content: space-evenly;
   background-color: #001EDE;
 `;
 
@@ -18,7 +18,7 @@ const TitleContainer = styled("div")`
   align-items: left;
 `;
 
-const Title = styled("h2")`
+const Title = styled("a")`
   font-family: Inter;
   margin: 0;
 `;
@@ -38,6 +38,7 @@ const ButtonInput = styled("button")`
   display:none
 `;
 
+
 function foo(){
   var input = document.getElementById("myInput");
   input.addEventListener("keyup", function(event) {
@@ -55,14 +56,15 @@ export const EmailNotifications: React.FC<{}> = () => {
     return (
         <Container className="join-content">
             <TitleContainer>
-                <Title>
-                    Sign up for Email Notifications
+                <Title href='https://join.vandyhacks.org/'>
+                    Applications now open!
                 </Title>
             </TitleContainer>
-            <EmailContainer>
+            {/* <EmailContainer>
                 <EmailInput type="email" placeholder="email@gmail.com" id="myInput" />
                 <ButtonInput onClick={foo} id="myBtn" />
-            </EmailContainer>
+            </EmailContainer> */}
+            <a href='https://join.vandyhacks.org/'>join.vandyhacks.org/</a>
         </Container>
     );
 };
