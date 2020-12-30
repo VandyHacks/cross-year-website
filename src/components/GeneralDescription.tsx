@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "astroturf";
 import { ArrowButton } from "./ArrowButton";
-import TextArrow from "../assets/icons/PlayButton.svg"
+// import TextArrow from "../assets/icons/PlayButton.svg"
 
 const Container = styled("section")`
   display: grid;
@@ -55,9 +55,9 @@ export const GeneralDescription: React.FC<{
         <Title>
           {title}
         </Title>
-        <ArrowContainer>
+        {/* <ArrowContainer>
           <TextArrow width="55" height = "30"/>
-        </ArrowContainer>
+        </ArrowContainer> */}
       </TitleContainer>
       <DescriptionContainer className="description-container">
         <Text className="index-description-text">{text}</Text>
