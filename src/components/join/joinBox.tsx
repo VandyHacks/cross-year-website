@@ -13,15 +13,9 @@ const Container = styled("section")`
   background-color: #001EDE;
 `;
 
-const LinkContainer = styled("div")`
-  display: flex;
-  justify-content: flex-start;
-  align-items: left;
-`;
-
 const Link = styled("a")`
   font-family: Inter;
-  margin: 0;
+  margin: 8px;
   text-decoration: none;
   color: #ffffff;
 `;
