@@ -21,14 +21,21 @@ const Text = styled("p")`
   margin-right: 1em;
 `;
 
+const ButtonContainer = styled('div')`
+  display: flex;
+  align-items: center;
+`
+
 export const ArrowButton: React.FC<{ text: string; href: string }> = ({
   text,
   href,
 }) => {
   return (
     <Container href={href}>
-      <Text>{text}</Text>
-      <PlayButton width="32" height="16"/>
+      <ButtonContainer className='zoom-button'>
+        <Text>{text}</Text>
+        <PlayButton width="32" height="16"/>
+      </ButtonContainer>
     </Container>
   );
 };
