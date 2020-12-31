@@ -61,7 +61,7 @@ export const GeneralDescription: React.FC<{
       </TitleContainer>
       <DescriptionContainer className="description-container">
         <Text className="index-description-text">{text}</Text>
-        <ArrowButton href={buttonLink} text={buttonText} />
+        <ArrowButton href={buttonLink} text={buttonText}/>
       </DescriptionContainer>
     </Container>
   );
