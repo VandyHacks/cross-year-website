@@ -43,12 +43,13 @@ const ArrowContainer = styled("div")`
 `;
 
 export const GeneralDescription: React.FC<{
-  text: string;
+  text1: string;
+  text2: string;
   title: string;
-  subText: string;
+  // subText: string;
   buttonText: string;
   buttonLink: string;
-}> = ({ text, title, buttonText, buttonLink }) => {
+}> = ({ text1, text2, title, buttonText, buttonLink }) => {
   return (
     <Container className="index-description">
       <TitleContainer>
@@ -60,7 +61,8 @@ export const GeneralDescription: React.FC<{
         </ArrowContainer> */}
       </TitleContainer>
       <DescriptionContainer className="description-container">
-        <Text className="index-description-text">{text}</Text>
+        <Text className="index-description-text">{text1}</Text>
+        <Text className="index-description-text">{text2}</Text>
         <ArrowButton href={buttonLink} text={buttonText}/>
       </DescriptionContainer>
     </Container>

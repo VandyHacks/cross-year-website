@@ -30,8 +30,11 @@ const IndexPage: React.FC = () => (
     <GeneralBodyContainer className="index-content">
       <GeneralDescription
         title="Board Applications Open!"
-        text={
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        text1={
+          `Welcome to VandyHacks! Our 2021/VH VIII Board applications are currently open until 11:59 PM CST on January 20th, 2021.`
+        }
+        text2={
+          `Join us in making Vanderbilt University's computer science community an even more enjoyable, diverse, and welcoming space.`
         }
         // subText="RETRO"
         buttonText="Learn more"

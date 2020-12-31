@@ -5,13 +5,14 @@ import styled from "astroturf";
 const Container = styled("section")`
   display: grid;
   grid-template-columns: 80vw;
-  grid-template-rows: 10vh 50vh; 
+  grid-template-rows: 34vh 50vh; 
   padding: 0 10%;
   color: #ffffff;
 `;
 
 const TitleContainer = styled("div")`
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: left;
 `;
@@ -56,6 +57,7 @@ export const Members: React.FC<{}> = () => (
             <Title>
                 Members
             </Title>
+            <p>The VandyHacks Board consists of 40+ organizers who are committed to creating learning experiences that are accessible and applicable to all. Meet the team below!</p>
         </TitleContainer>
         <MemberContainer>
             {randomArray.map(value => {

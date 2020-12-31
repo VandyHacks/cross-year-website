@@ -34,7 +34,7 @@ export const NextVandyHackAnnouncement: React.FC<{}> = () => (
       </Title>
     </TitleContainer>
     <Text>
-      Stay tuned!
+      Stay tuned for VandyHacks VIII!
     </Text>
     {/* <GeneralDescription
       title="VANDYHACKS VII"
