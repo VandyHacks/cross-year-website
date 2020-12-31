@@ -20,9 +20,9 @@ const Join: React.FC<{}> = () => (
     <Main className="join">
         <PageLinks />
         <BoardApps 
-        title="Applications for board now open!"
+        title="2021 Board Applications - Open through January 20th, 2021"
         text={
-            "Please submit by 2021. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+            "With 7 different committees (Content, Design, Development, Hacker Experience, Marketing, Operations, and Sponsorship), VandyHacks definitely has something for you! We warmly welcome all years and majors; our top priority is to bring together a group filled with genuine enthusiasm and creative energy. You can learn more about VandyHacks and our application process below."
         }
         />
         <JoinBox />
