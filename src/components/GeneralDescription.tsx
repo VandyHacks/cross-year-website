@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "astroturf";
 import { ArrowButton } from "./ArrowButton";
-import TextArrow from "../assets/icons/PlayButton.svg"
+// import TextArrow from "../assets/icons/PlayButton.svg"
 
 const Container = styled("section")`
   display: grid;
@@ -17,7 +17,6 @@ const TitleContainer = styled("div")`
 const DescriptionContainer = styled("div")`
   display: flex;
   flex-direction: column;
-  justify-content: center;
 `;
 
 const Title = styled("h2")`
@@ -28,18 +27,19 @@ const Text = styled("p")`
   font-family: Inter;
 `;
 
-const SubText = styled("sub")`
-  font-size: 1.3rem;
-  font-family: Inter;
-  font-weight: bold;
-  margin: 0;
-  padding-right: 10px;
-`;
+// const SubText = styled("sub")`
+//   font-size: 1.3rem;
+//   font-family: Inter;
+//   font-weight: bold;
+//   margin: 0;
+//   padding-right: 10px;
+// `;
 
 const ArrowContainer = styled("div")`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 10px;
 `;
 
 export const GeneralDescription: React.FC<{
@@ -48,21 +48,18 @@ export const GeneralDescription: React.FC<{
   subText: string;
   buttonText: string;
   buttonLink: string;
-}> = ({ text, title, subText, buttonText, buttonLink }) => {
+}> = ({ text, title, buttonText, buttonLink }) => {
   return (
     <Container className="index-description">
       <TitleContainer>
         <Title>
           {title}
-          <SubText>
-            {subText}
-          </SubText>
         </Title>
-        <ArrowContainer>
+        {/* <ArrowContainer>
           <TextArrow width="55" height = "30"/>
-        </ArrowContainer>
+        </ArrowContainer> */}
       </TitleContainer>
-      <DescriptionContainer>
+      <DescriptionContainer className="description-container">
         <Text className="index-description-text">{text}</Text>
         <ArrowButton href={buttonLink} text={buttonText} />
       </DescriptionContainer>
