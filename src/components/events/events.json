@@ -1,5 +1,6 @@
- {
-    "2020" : {
+ [
+    {
+        "Year" : "2020",
         "PreviewImage" : "../../images/some_weird_guy.png",
         "BackgroundColor" : "#17A589",
         "Information" : [
@@ -25,7 +26,8 @@
             }
         ]
     },
-    "2019" : {
+    {
+        "Year" : "2019",
         "PreviewImage" : "../../images/VandyHacksVIBackground.png",
         "BackgroundColor" : "#0063C6",
         "Information" : [
@@ -46,7 +48,8 @@
             }
         ]
     },
-    "2018" : {
+    {
+        "Year" : "2018",
         "PreviewImage" : "../../images/some_weird_guy.png",
         "BackgroundColor" : "#0000ff",
         "Information" : [
@@ -72,4 +75,4 @@
             }
         ]
     }
-}
+ ]
