@@ -7,7 +7,7 @@ body {
 #timeline {
   display: flex;
   background-color: #031625;
-  background-image: url("../../images/events_background.jpg");
+  // background-image: url("../../images/events_background.jpg");
   
   &:hover {
     .tl-item {
@@ -112,37 +112,14 @@ body {
   line-height: 0;
 }
 
-.T1BG {
-  transform: translate3d(0, 0, 0);
-  position: absolute;
-  width: 100%; height: 100%;
-  top: 0; left: 0;
-  background-size: cover;
-  background-position: center center;
-  transition: filter 0.5s ease;
-  background-image: url("../../images/2017_Image.svg");
+.T1BG2020 {
+  background-image: url("../../images/some_weird_guy.png");
 }
-
 .T1BG2019 {
-  transform: translate3d(0, 0, 0);
-  position: absolute;
-  width: 100%; height: 100%;
-  top: 0; left: 0;
-  background-size: cover;
-  background-position: center center;
-  transition: filter 0.5s ease;
-  background-image: url("../../images/2018_image.jpg");
+  background-image: url("../../images/some_weird_guy.png");
 }
-
 .T1BG2018 {
-  transform: translate3d(0, 0, 0);
-  position: absolute;
-  width: 100%; height: 100%;
-  top: 0; left: 0;
-  background-size: cover;
-  background-position: center center;
-  transition: filter 0.5s ease;
-  background-image: url("../../images/2019_image.jpg");
+  background-image: url("../../images/some_weird_guy.png");
 }
 
 .text-container {
