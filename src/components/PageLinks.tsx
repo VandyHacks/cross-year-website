@@ -48,16 +48,16 @@ const HomeContainer = styled("a")`
 export const PageLinks: React.FC<{}> = () => (
     <Container className="headers">
       <HomeContainer href="/" className="headers-content">
-        <VHLogo width="45" height="45" />
+        <VHLogo width="45" height="45" className="zoom-button"/>
       </HomeContainer>
       <TextContainer className="headers-content" href="/About" >
-        <Text>About</Text>
+        <Text className="underline-button">About</Text>
       </TextContainer>
       <TextContainer className="headers-content" href="/Events">
-        <Text>Events</Text>
+        <Text className="underline-button">Events</Text>
       </TextContainer>
       <TextContainer className="headers-content" href="/Join">
-        <Text>Join</Text>
+        <Text className="underline-button">Join</Text>
       </TextContainer>
     </Container>
 );

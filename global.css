@@ -79,6 +79,7 @@ p {
 }
 .zoom-button {
   transition: transform .2s;
+  hover:
 }
 .zoom-button:hover {
   transform: scale(1.1);
