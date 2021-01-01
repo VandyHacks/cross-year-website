@@ -4,13 +4,16 @@ import VHLogo from "../assets/icons/VH_Home_Logo.svg"
 
 const Container = styled("div")`
   position: fixed;
-  left: 0px;
   width: 90 vw;
+  left: 0;
+  right: 18px;
   z-index: 2;
   display: grid;
   color: #ffffff;
   backdrop-filter: blur(6px);
-  background-color: rgba(0,0,222,0.1);
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  padding-left: 1em;
 `;
 
 const TextContainer = styled("a")`

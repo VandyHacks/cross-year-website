@@ -6,15 +6,16 @@ import {PageLinks} from "../components/PageLinks";
 import { Footer } from "../components/Footer";
 import { GeneralDescription } from "../components/GeneralDescription";
 
-const Main = styled("body")`
-  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-  width: 100vw;
-  background-color: #0000DE;
-  background-image: url("../images/Big_VH_Logo.png");
-  background-size: auto 84vh;
-  background-position: bottom;
-  background-repeat: no-repeat;
-`;
+/* Commented out because refactor to global.css, use plain body instead */
+// const Main = styled("body")`
+//   @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+//   width: 100vw;
+//   background-color: #0000DE;
+//   background-image: url("../images/Big_VH_Logo.png");
+//   background-size: auto 84vh;
+//   background-position: bottom 20px right 100px;
+//   background-repeat: no-repeat;
+// `;
 
 const GeneralBodyContainer = styled("div")`
   display: grid;
@@ -27,7 +28,7 @@ const GeneralBodyContainer = styled("div")`
 
 
 const IndexPage: React.FC = () => (
-  <Main className="index-main">
+  <body className="index-main">
     <PageLinks />
     <GeneralBodyContainer className="index-content">
       <GeneralDescription
@@ -44,7 +45,7 @@ const IndexPage: React.FC = () => (
       />
     </GeneralBodyContainer>
     <Footer />
-  </Main>
+  </body>
 );
 
 export default IndexPage;

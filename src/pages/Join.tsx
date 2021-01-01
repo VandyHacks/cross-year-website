@@ -6,18 +6,18 @@ import {Footer} from "../components/Footer"
 import { BoardApps } from "../components/join/boardApps";
 import { JoinBox } from "../components/join/joinBox";
 
-const Main = styled("body")`
-  width: 100vw;
-  background-color: #0000DE;
-  display: grid;
-  grid-template-columns: 100vw;
-  background-image: url("../images/Big_VH_Logo.png");
-  background-repeat: no-repeat;
-`;
+// const Main = styled("body")`
+//   width: 100vw;
+//   background-color: #0000DE;
+//   display: grid;
+//   grid-template-columns: 100vw;
+//   background-image: url("../images/Big_VH_Logo.png");
+//   background-repeat: no-repeat;
+// `;
 
 
 const Join: React.FC<{}> = () => (
-    <Main className="join">
+    <body className="join">
         <PageLinks />
         <BoardApps 
         title="2021 Board Applications - Open through January 20th, 2021"
@@ -27,7 +27,7 @@ const Join: React.FC<{}> = () => (
         />
         <JoinBox />
         <Footer />
-    </Main>
+    </body>
 )
 
 export default Join;
