@@ -4,10 +4,19 @@ import VHLogo from "../assets/icons/VH_Home_Logo.svg"
 
 const Container = styled("div")`
   position: fixed;
-  width: 100%;
-  
+  width: 90 vw;
+  left: 26px;
+  right: 36px;
+  z-index: 2;
   display: grid;
   color: #ffffff;
+  backdrop-filter: blur(6px);
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  padding-left: 1em;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 `;
 
 const TextContainer = styled("a")`
@@ -38,17 +47,17 @@ const HomeContainer = styled("a")`
 
 export const PageLinks: React.FC<{}> = () => (
     <Container className="headers">
-      <HomeContainer href="/">
-        <VHLogo width="45" height="45" />
+      <HomeContainer href="/" className="headers-content">
+        <VHLogo width="45" height="45" className="zoom-button"/>
       </HomeContainer>
-      <TextContainer className="headers-text" href="/About" >
-        <Text>About</Text>
+      <TextContainer className="headers-content" href="/About" >
+        <Text className="underline-button">About</Text>
       </TextContainer>
-      <TextContainer className="headers-text" href="/Events">
-        <Text>Events</Text>
+      <TextContainer className="headers-content" href="/Events">
+        <Text className="underline-button">Events</Text>
       </TextContainer>
-      <TextContainer className="headers-text" href="/Join">
-        <Text>Join</Text>
+      <TextContainer className="headers-content" href="/Join">
+        <Text className="underline-button">Join</Text>
       </TextContainer>
     </Container>
 );
