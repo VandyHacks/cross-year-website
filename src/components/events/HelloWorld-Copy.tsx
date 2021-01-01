@@ -3,7 +3,7 @@ import styled from "astroturf";
 
 
 import events from "./events.json"
-import "./2019Events.scss"
+import "./2019.scss"
 
 var name:string = "HelloWorld";
 var title:string =  events[name].Title;

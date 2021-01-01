@@ -4,7 +4,7 @@ import {HelloWorld} from "../../components/events/HelloWorld-Copy"
 import {VandyHacksVI} from "../../components/events/VandyHacksVI-Copy"
 import {PageLinks} from "../../components/PageLinks";
 import {Footer} from "../../components/Footer";
-import "../../components/events/2019Events.scss"
+import "../../components/events/2019.scss"
 
 const Events2019: React.FC<{}> = () => (
     <div className="timeline-header">
@@ -13,7 +13,7 @@ const Events2019: React.FC<{}> = () => (
         <div className="timeline">
             <HelloWorld />
             <div id="HelloWorld" >
-            <VandyHacksVI />
+                <VandyHacksVI />
             </ div>
         </div>
     </div>
