@@ -5,8 +5,7 @@ import VHLogo from "../assets/icons/VH_Home_Logo.svg"
 const Container = styled("div")`
   position: fixed;
   width: 90 vw;
-  left: 0;
-  right: 18px;
+  left: 10px;
   z-index: 2;
   display: grid;
   color: #ffffff;
@@ -14,6 +13,9 @@ const Container = styled("div")`
   padding-top: 4vh;
   padding-bottom: 4vh;
   padding-left: 1em;
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 `;
 
 const TextContainer = styled("a")`
