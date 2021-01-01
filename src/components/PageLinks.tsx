@@ -4,10 +4,13 @@ import VHLogo from "../assets/icons/VH_Home_Logo.svg"
 
 const Container = styled("div")`
   position: fixed;
-  width: 100%;
-  
+  left: 0px;
+  width: 90 vw;
+  z-index: 2;
   display: grid;
   color: #ffffff;
+  backdrop-filter: blur(6px);
+  background-color: rgba(0,0,222,0.1);
 `;
 
 const TextContainer = styled("a")`
@@ -38,16 +41,16 @@ const HomeContainer = styled("a")`
 
 export const PageLinks: React.FC<{}> = () => (
     <Container className="headers">
-      <HomeContainer href="/">
+      <HomeContainer href="/" className="headers-content">
         <VHLogo width="45" height="45" />
       </HomeContainer>
-      <TextContainer className="headers-text" href="/About" >
+      <TextContainer className="headers-content" href="/About" >
         <Text>About</Text>
       </TextContainer>
-      <TextContainer className="headers-text" href="/Events">
+      <TextContainer className="headers-content" href="/Events">
         <Text>Events</Text>
       </TextContainer>
-      <TextContainer className="headers-text" href="/Join">
+      <TextContainer className="headers-content" href="/Join">
         <Text>Join</Text>
       </TextContainer>
     </Container>

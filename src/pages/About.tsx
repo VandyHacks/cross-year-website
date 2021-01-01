@@ -12,10 +12,8 @@ const Main = styled("body")`
   background-color: #0000DE;
   display: grid;
   grid-template-columns: 100vw;
-
   background-image: url("../images/Big_VH_Logo.png");
   background-repeat: no-repeat;
-
 `;
 // 
 
