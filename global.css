@@ -47,7 +47,6 @@ p {
 .headers {
   grid-template-columns: 55fr 15fr 15fr 15fr;
   /* margin-left: 4.6rem; */
-  right: 28px;
 }
 
 .index-main {

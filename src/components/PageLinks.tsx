@@ -5,7 +5,8 @@ import VHLogo from "../assets/icons/VH_Home_Logo.svg"
 const Container = styled("div")`
   position: fixed;
   width: 90 vw;
-  left: 10px;
+  left: 26px;
+  right: 36px;
   z-index: 2;
   display: grid;
   color: #ffffff;

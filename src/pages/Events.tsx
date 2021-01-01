@@ -19,11 +19,11 @@ const Main = styled("body")`
 
 
 const Events: React.FC<{}> = () => (
-    <Main>
+    <body>
         <PageLinks />
         <EventsBox />
         <Footer />
-    </Main>
+    </body>
 )
 
 export default Events;
