@@ -12,6 +12,7 @@ const TitleContainer = styled("div")`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 6vh;
 `;
 
 const DescriptionContainer = styled("div")`
