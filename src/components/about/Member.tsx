@@ -34,6 +34,7 @@ const IndividualImage = styled("img")`
     border-radius: 18px;
     width: 120px;
     height: 160px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
 `;
 
 interface MemberCheck {
@@ -62,7 +63,7 @@ export const Members: React.FC<{}> = () => (
         <MemberContainer>
             {randomArray.map(value => {
                 return (
-                    <IndividualImage src = {value.image} alt={value.image} />
+                    <IndividualImage src = {value.image} alt={value.image} className="zoom-button"/>
                 )
             })}
         </MemberContainer>
