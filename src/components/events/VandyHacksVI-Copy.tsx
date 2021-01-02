@@ -3,7 +3,7 @@ import styled from "astroturf";
 
 
 import events from "./events.json"
-import "./2019.scss"
+import "./events.scss"
 
 var name:string = "VandyHacksVI";
 var title:string =  "../../images/some_weird_guy.png";
