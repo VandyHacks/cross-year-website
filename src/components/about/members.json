@@ -1,125 +1,264 @@
 [
     {
-        "image": "/images/headshots/Meghan-Callandriello.jpg"
+        "name": "Meghan Callandriello",
+        "image": "/images/headshots/Meghan-Callandriello.jpg",
+        "role": "Director of Sponsorship",
+        "from": "Charlotte, NC",
+        "year": "Junior",
+        "enjoy": "The community and the distressing events"
     },
     {
-        "image": "/images/headshots/Benjamin-Redmond.jpg"
+        "name": "Ben Redmond",
+        "image": "/images/headshots/Benjamin-Redmond.jpg",
+        "role": "Dev",
+        "from": "Rogers, AR",
+        "year": "Senior",
+        "enjoy": "The community of hackers getting together for a weekend to achieve one common goal of producing an interesting product. "
     },
     {
-        "image": "/images/headshots/Aadarsh-Jha.jpg"
+        "name": "Aadarsh Jha",
+        "image": "/images/headshots/Aadarsh-Jha.jpg",
+        "role": "President, Mentor",
+        "from": "Austin, TX",
+        "year": "Junior",
+        "enjoy": "Coming together and making something cool. "
     },
     {
-        "image": "/images/headshots/Alice-Liao.jpg"
+        "name": "Anna Zhang",
+        "image": "/images/headshots/Anna-Zhang.jpg",
+        "role": "Ops Committee Advisor, Mentor",
+        "from": "McLean, VA",
+        "year": "Junior",
+        "enjoy": "Operations - making food decisions. Senior Advisor - being involved in so many different things, and serving as a mentor to new members."
     },
     {
-        "image": "/images/headshots/Anna-Zhang.jpg"
+        "name": "Claire Yan",
+        "image": "/images/headshots/Claire-Yan.jpg",
+        "role": "Hacker Experience",
+        "from": "Short Hills, NJ",
+        "year": "Sophomore",
+        "enjoy": "I think I enjoy most all the decorating/theme-based things we do bc I feel like it can contribute a lot to the atmosphere of a hackathon and it's just really fun to plan."
     },
     {
-        "image": "/images/headshots/Claire-Yan.jpg"
+        "name": "Katelyn Itano",
+        "image": "/images/headshots/Katelyn-Itano.jpg",
+        "role": "Ops",
+        "from": "Phoenix, AZ",
+        "year": "Junior",
+        "enjoy": "It's been fun working with and getting to know all these talented people."
     },
     {
-        "image": "/images/headshots/Katelyn-Itano.jpg"
+        "name": "Paavas Bhasin",
+        "image": "/images/headshots/Paavas-Bhasin.jpg",
+        "role": "Marketing Committee Advisor, Mentor",
+        "from": "New Delhi, India",
+        "year": "Senior",
+        "enjoy": "Comms/Marketing - We give a unified voice to the immensely diverse VH community and help forward the mission of VandyHacks with every single thing that we do."
     },
     {
-        "image": "/images/headshots/Minsoo-Shin.jpg"
+        "name": "Sam Lee",
+        "image": "/images/headshots/Samuel-Lee.jpg",
+        "role": "Dev Tech Lead",
+        "from": "Boston, MA",
+        "year": "Junior",
+        "enjoy": "Everyone is super supportive, and we all want each other to learn and grow."
     },
     {
-        "image": "/images/headshots/Paavas-Bhasin.jpg"
+        "name": "Tim O'Brien",
+        "image": "/images/headshots/Tim-O_Brien.jpg",
+        "role": "Dev and Content",
+        "from": "Miami, FL",
+        "year": "Senior",
+        "enjoy": "Dev: I like how many things we're always working on and how willing and able everyone is to help. Content: I love teaching workshops and hearing different people's ideas"
     },
     {
-        "image": "/images/headshots/Samuel-Lee.jpg"
+        "name": "Keshvi Mahalingam",
+        "image": "/images/headshots/Keshvi-Mahalingam.jpg",
+        "role": "Content",
+        "from": "Kansas City, MO",
+        "year": "Sophomore",
+        "enjoy": "I like figuring out how to do new and interesting things with programming"
     },
     {
-        "image": "/images/headshots/Tim-O_Brien.jpg"
+        "name": "Lu Cao",
+        "image": "/images/headshots/Lu-Cao.jpg",
+        "role": "Sponsorship",
+        "from": "Cary, NC",
+        "enjoy": "I really like the people on my committee and getting to build relationships with sponsors."
     },
     {
-        "image": "/images/headshots/Ashwin-Kumar.jpg"
+        "name": "Chuka Munkh-Achit",
+        "image": "/images/headshots/Chinchuluun-Munkh-achit.jpg",
+        "role": "Dev, Hacker Experience",
+        "from": "Erdenet, Mongolia",
+        "year": "Junior",
+        "enjoy": "The memes"
     },
     {
-        "image": "/images/headshots/Keshvi-Mahalingam.jpg"
+        "name": "Juyoung Kim",
+        "image": "/images/headshots/Juyoung-Kim.jpg",
+        "role": "Dev",
+        "from": "Salt Lake City, Utah",
+        "enjoy": "Dev: always willing to lend a hand"
     },
     {
-        "image": "/images/headshots/Lu-Cao.jpg"
+        "name": "Ananya Gondi",
+        "image": "/images/headshots/Ananya-Gondi.jpg",
+        "role": "Senior Advisor, Mentor",
+        "from": "Hyderabad, India",
+        "year": "Senior",
+        "enjoy": "All of board is so talented and creative. I love hanging out with y'all :) "
     },
     {
-        "image": "/images/headshots/Chinchuluun-Munkh-achit.jpg"
+        "name": "Jerry Qin",
+        "image": "/images/headshots/Jerry-Qin.jpg",
+        "role": "Sponsorship Committee Advisor, Content",
+        "from": "Fremont, California",
+        "year": "Junior",
+        "enjoy": "Sponsorship has (some of) the coolest ppl in VH"
     },
     {
-        "image": "/images/headshots/Juyoung-Kim.jpg"
+        "name": "Evelyn Mulyono",
+        "image": "/images/headshots/Evelyn-Mulyono.jpg",
+        "role": "Marketing",
+        "from": "Pontianak, Indonesia",
+        "year": "Junior",
+        "enjoy": "How funny and supportive everyone is!"
     },
     {
-        "image": "/images/headshots/Ananya-Gondi.jpg"
+        "name": "Ben Siraphob",
+        "image": "/images/headshots/Ben-Siraphob.jpg",
+        "role": "Dev, Content",
+        "from": "Bangkok, Thailand",
+        "year": "Sophomore",
+        "enjoy": "Everyone has a big brain."
     },
     {
-        "image": "/images/headshots/Jerry-Qin.jpg"
+        "name": "Gabriel Ting",
+        "image": "/images/headshots/Gabriel-Ting.jpg",
+        "role": "Senior Advisor, Mentor",
+        "from": "Springfield, Missouri",
+        "year": "Senior",
+        "enjoy": "Working with all the people in VandyHacks! I'm always learning something from them–I really love our team. Being co-president means that I can work together with people across the organization on a large variety of projects, which is invigorating."
     },
     {
-        "image": "/images/headshots/Evelyn-Mulyono.jpg"
+        "name": "Sam Bender",
+        "image": "/images/headshots/Samuel-Bender.jpg",
+        "role": "Hacker Experience",
+        "from": "Franklin, TN",
+        "year": "Senior",
+        "enjoy": "We specialize in creating unique experiences that makes VandyHacks stand out from other hackathons"
     },
     {
-        "image": "/images/headshots/Ben-Siraphob.jpg"
+        "name": "Sophia Chen",
+        "image": "/images/headshots/Sophia-Chen.jpg",
+        "role": "Marketing, Committee Advisor",
+        "from": "Naperville, IL",
+        "year": "Junior",
+        "enjoy": "Fun fact: marketing is the smallest team on VH at four people! It's nice being smaller since we can be more tight knit and meetings feel more personable."
     },
     {
-        "image": "/images/headshots/Gabriel-Ting.jpg"
+        "name": "Saydolimkhon Agzamkhodjaev",
+        "image": "/images/headshots/Saydolimkhon-Agzamkhodjaev.jpg",
+        "role": "President",
+        "from": "Uzbekistan",
+        "year": "Sophomore",
+        "enjoy": "Hard-working, kind, and motivated team."
     },
     {
-        "image": "/images/headshots/Samuel-Bender.jpg"
+        "name": "Ilya Ermakov",
+        "image": "/images/headshots/Ilya-Ermakov.jpg",
+        "role": "Director of Operations",
+        "from": "Tashkent, Uzbekistan",
+        "year": "Sophomore",
+        "enjoy": "Everybody's full devotion to work and desire to make things better "
     },
     {
-        "image": "/images/headshots/Sophia-Chen.jpg"
+        "name": "William Zhao",
+        "image": "/images/headshots/William-Zhao.jpg",
+        "role": "Content Committee Advisor, Mentor",
+        "from": "Birmingham, Alabama",
+        "year": "Senior",
+        "enjoy": "Everyone being super driven about helping hackers and teaching them new technologies"
     },
     {
-        "image": "/images/headshots/Saydolimkhon-Agzamkhodjaev.jpg"
+        "name": "Vanessa Pei",
+        "image": "/images/headshots/Vanessa-Pei.jpg",
+        "role": "Sponsorship",
+        "from": "Qingdao, China",
+        "year": "Sophomore",
+        "enjoy": "basically everything:)"
     },
     {
-        "image": "/images/headshots/Ilya-Ermakov.jpg"
+        "name": "Jacky Zhang",
+        "image": "/images/headshots/Jacky-Zhang.jpg",
+        "role": "Sponsorship",
+        "from": "Charlotte, NC",
+        "year": "Junior",
+        "enjoy": "Most fashionable committee :)"
     },
     {
-        "image": "/images/headshots/Siqi-Zhou.jpg"
+        "name": "Alex Cuc",
+        "image": "/images/headshots/Alexandra-Cuc.jpg",
+        "role": "Hacker Experience, Committee Advsor",
+        "from": "Chicago burbs",
+        "year": "Junior",
+        "enjoy": "We have a lot of fun together even when we're not talking about VH!"
     },
     {
-        "image": "/images/headshots/William-Zhao.jpg"
+        "name": "Seok Hee Hong",
+        "image": "/images/headshots/Seok-Hee-Hong.jpg",
+        "role": "Director of Content",
+        "from": "Portage, Michigan",
+        "year": "Sophomore",
+        "enjoy": "I get to learn so much while teaching others! (as in, I get to spread the love ahaha)"
     },
     {
-        "image": "/images/headshots/Xue-Zou.jpg"
+        "name": "Amy Chen",
+        "image": "/images/headshots/Amy-Qingxin-Chen.jpg",
+        "role": "Content Committee Advisor",
+        "from": "Nanjing, China",
+        "year": "Senior",
+        "enjoy": "For Content, we teach and spread the knowledge and welcome others into the world of CS. For HE, we decide the prizes and we design all the fun events and make them come true. Both of my committees are super united and always willing to help each other out. We enjoy doing our work which the best part of it!"
     },
     {
-        "image": "/images/headshots/Ella-Polo.jpg"
+        "name": "Kathy Zhang",
+        "image": "/images/headshots/Kathy-Zhang-Zihan.jpg",
+        "role": "Design Committee Advisor",
+        "from": "Dallas, TX",
+        "year": "Senior",
+        "enjoy": "We're a really chill and creative committee, and it's really great being able to talk about art/design with people who are passionate about the same thing!"
     },
     {
-        "image": "/images/headshots/Vanessa-Pei.jpg"
+        "name": "Fay Zhang",
+        "image": "/images/headshots/AnRan-Zhang.jpg",
+        "role": "Hacker Experience",
+        "from": "Beijing, China",
+        "year": "Junior",
+        "enjoy": "I love to brainstorm different activity ideas with my committee to help to enhance the hackathon experience. I also loved how I have learned so much from each committee member."
     },
     {
-        "image": "/images/headshots/Udit-Malik.jpg"
+        "name": "Christina Woodrow",
+        "image": "/images/headshots/Christina-Woodrow.jpg",
+        "role": "Director of Marketing",
+        "from": "Kennesaw, GA",
+        "year": "Sophomore",
+        "enjoy": "Everyone pitches in to stay on track; easy to mutually voice opinions"
     },
     {
-        "image": "/images/headshots/Jacky-Zhang.jpg"
+        "name": "Terry Luo",
+        "image": "/images/headshots/Terry-Luo.jpg",
+        "role": "Content",
+        "from": "Cincinnati, Ohio",
+        "year": "Junior",
+        "enjoy": "I like that content members directly engage with hackers through workshops."
     },
     {
-        "image": "/images/headshots/Alexandra-Cuc.jpg"
-    },
-    {
-        "image": "/images/headshots/Seok-Hee-Hong.jpg"
-    },
-    {
-        "image": "/images/headshots/Amy-Qingxin-Chen.jpg"
-    },
-    {
-        "image": "/images/headshots/Kathy-Zhang-Zihan.jpg"
-    },
-    {
-        "image": "/images/headshots/AnRan-Zhang.jpg"
-    },
-    {
-        "image": "/images/headshots/Vivian-Li.jpg"
-    },
-    {
-        "image": "/images/headshots/Christina-Woodrow.jpg"
-    },
-    {
-        "image": "/images/headshots/Terry-Luo.jpg"
-    },
-    {
-        "image": "/images/headshots/Zinnie-Zhang.jpg"
+        "name": "Zinnie Zhang",
+        "image": "/images/headshots/Zinnie-Zhang.jpg",
+        "role": "Sponsorship",
+        "from": "Toronto, Canada",
+        "year": "Junior",
+        "enjoy": "The people!"
     }
 ]
