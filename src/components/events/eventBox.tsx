@@ -8,6 +8,7 @@ const T1BG = styled('div')`
   position: absolute;
   width: 100%; height: 100%;
   top: 0; left: 0;
+  bottom: 0;
   background-size: cover;
   background-position: center center;
   transition: filter 0.5s ease;  

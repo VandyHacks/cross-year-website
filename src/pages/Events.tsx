@@ -19,7 +19,7 @@ const Main = styled("body")`
 
 
 const Events: React.FC<{}> = () => (
-    <body>
+    <body style={{backgroundImage: "none"}}>
         <PageLinks />
         <EventsBox />
         <Footer />
