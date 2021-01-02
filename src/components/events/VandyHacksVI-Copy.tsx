@@ -3,19 +3,19 @@ import styled from "astroturf";
 
 
 import events from "./events.json"
-import "./2019Events.scss"
+import "./events.scss"
 
 var name:string = "VandyHacksVI";
-var title:string =  events[name].Title;
-var event1Description:string = events[name].Event1;
-var event2Description:string = events[name].Event2;
-var event1title:string = events[name].Event1Title;
-var event2title:string = events[name].Event2Title;
-var bgcolor:string = events[name].bgcolor;
-var image1:string = events[name].Image1;
-var image2:string = events[name].Image2;
-var BackgroundImage:string = events[name].BackgroundImage;
-var scroll : string = events[name].scroll;
+var title:string =  "../../images/some_weird_guy.png";
+var event1Description:string = "../../images/some_weird_guy.png";
+var event2Description:string = "../../images/some_weird_guy.png";
+var event1title:string = "../../images/some_weird_guy.png";
+var event2title:string = "../../images/some_weird_guy.png";
+var bgcolor:string = "../../images/some_weird_guy.png";
+var image1:string = "../../images/some_weird_guy.png";
+var image2:string = "../../images/some_weird_guy.png";
+var BackgroundImage:string = "../../images/some_weird_guy.png";
+var scroll : string = "../../images/some_weird_guy.png";
 
 export const VandyHacksVI: React.FC<{}> = () => (
   <div className="timeline">

@@ -1,28 +1,78 @@
-{
-    "VandyHacksVI" : {
-        "Title" : "VANDYHACKS VI",
-        "Event1Title" : "Event",
-        "Event2Title" : "Event",
-        "Image1" : "/images/EventImages/events_background.jpg",
-        "Image2" : "/images/EventImages/2017_Image.jpg",
-        "BackgroundImage" : "../../images/VandyHacksVIBackground.png",
-        "scroll" : "/images/EventImages/scroll.png",
-        "nextPage" : "./HelloWorld",
-        "bgcolor" : "#0063C6",
-        "Event1" : "et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
-        "Event2" : "et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Part 2"
+ [
+    {
+        "Year" : "2020",
+        "PreviewImage" : "some_weird_guy.png",
+        "BackgroundColor" : "#17A589",
+        "Information" : [
+            {
+                "Title" : "VandyHacks VII",
+                "Image" : "some_weird_guy.png",
+                "Description" : "Co-presidents Ananya Gondi & Gabriel Ting led an entirely remote team to create this virtual, Retro-themed event. Over 826 participants enjoyed 6 industry speakers, 8 nifty workshops, and 1000+ virtual pats of our beloved squirrel mascot."
+            },
+            {
+                "Title" : "VandyHacks: Summer Edition",
+                "Image" : "some_weird_guy.png",
+                "Description" : "With our first-ever summer (and virtual!) hackathon, VH welcomed almost 400 hackers from 7 different countries! In light of COVID-19 internship cancellations, we also matched 32 hackers with externships at 8 different Nashville non-profits."
+            },
+            {
+                "Title" : "VandyHacks Mentorship",
+                "Image" : "some_weird_guy.png",
+                "Description" : "With our first-ever summer (and virtual!) hackathon, VH welcomed almost 400 hackers from 7 different countries! In light of COVID-19 internship cancellations, we also matched 32 hackers with externships at 8 different Nashville non-profits."
+            },
+            {
+                "Title" : "Open-Saurus Rex Workshop",
+                "Image" : "some_weird_guy.png",
+                "Description" : "Love playing the Chrome Dino game when the internet cuts off? Us too! This workshop was a blast for beginners and pros alike and is available to view (along with all other VH workshops) at learn.vandyhacks.org."
+            }
+        ]
     },
-    "HelloWorld" : {
-        "Title" : "Hello World Workshop",
-        "Event1Title" : "Event",
-        "Event2Title" : "Event",
-        "Image1" : "/images/EventImages/HelloWorldDesk.png",
-        "Image2" : "/images/EventImages/HelloWorldIrfan.png",
-        "BackgroundImage" : "../../images/VandyHacksVIBackground.png",
-        "scroll" : "/images/EventImages/scroll.png",
-        "nextPage" : "/",
-        "bgcolor" : "#8900C6",
-        "Event1" : "et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint",
-        "Event2" : "et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Part 2"
+    {
+        "Year" : "2019",
+        "PreviewImage" : "VandyHacksVIBackground.png",
+        "BackgroundColor" : "#0063C6",
+        "Information" : [
+            {
+                "Title" : "VandyHacks VI",
+                "Image" : "some_weird_guy.png",
+                "Description" : "Release your inner artist! Led by Matt Leon & Nidhi Mehta (our first female president!), this was VH's largest in-person event to date with over 650 attendees."
+            },
+            {
+                "Title" : "Hello World Workshop",
+                "Image" : "some_weird_guy.png",
+                "Description" : "First-year students of all skill levels learned how to create a Google Assistant application from scratch, and some even walked away with their own Google Home!"
+            },
+            {
+                "Title" : "HackCon 2019",
+                "Image" : "some_weird_guy.png",
+                "Description" : "HackCon is a hacker conference for organizers/hacker community leaders (from north america)."
+            }
+        ]
+    },
+    {
+        "Year" : "2018",
+        "PreviewImage" : "some_weird_guy.png",
+        "BackgroundColor" : "#615c93",
+        "Information" : [
+            {
+                "Title" : "VandyHacks V",
+                "Image" : "some_weird_guy.png",
+                "Description" : "Co-presidents Ananya Gondi & Gabriel Ting led an entirely remote team to create this virtual, Retro-themed event. Over 826 participants enjoyed 6 industry speakers, 8 nifty workshops, and 1000+ virtual pats of our beloved squirrel mascot."
+            },
+            {
+                "Title" : "VandyHacks x MLH Local Hack Day",
+                "Image" : "some_weird_guy.png",
+                "Description" : "Co-hosted by GitHub, this 12-hour Local Hack Day was an intense sprint of learning, building, and sharing new technologies!"
+            },
+            {
+                "Title" : "VandyHacks x VandyApps x Women in Computing Study Night",
+                "Image" : "some_weird_guy.png",
+                "Description" : "Serving warm cookies and delicious yogurt parfaits, this cross-organization event prepared Vandy undergrads to ace their spring CS finals."
+            },
+            {
+                "Title" : "Hack Night with Nashville's Chief Data Officer",
+                "Image" : "some_weird_guy.png",
+                "Description" : "Students of all years and majors enjoyed an introductory Python workshop, a Tech Talk from Robyn Mace (former Chief Data Officer of the Metro Nashville Government), and, of course, free food."
+            }
+        ]
     }
-}
+ ]
