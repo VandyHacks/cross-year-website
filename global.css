@@ -12,8 +12,9 @@ main {
 body {
   width: 100vw;
   height: 100vh;
-  display: grid;
-  grid-template-columns: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: 100vw; */
   background-color: #0000DE;
   background-image: url("./src/images/Big_VH_Logo.png");
   background-size: auto 82vh;
@@ -67,7 +68,7 @@ p {
 }
 
 .about {
-  grid-template-rows: 56vh 23vh 200vh 14vh;
+  grid-template-rows: 56vh 23vh 360vh 14vh;
 }
 
 .join {
@@ -150,7 +151,7 @@ p {
 
   /* about page */
   .about {
-    grid-template-rows: 250vw 60vw 1030vw 40vw;
+    grid-template-rows: 250vw 60vw 3000vw 40vw;
   }
 
   /* for page links / headers */
