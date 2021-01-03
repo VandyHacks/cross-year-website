@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import member from "./members.json";
+import members from "./members.json";
 import styled from "astroturf";
+
 
 const Container = styled("section")`
 	display: flex;
@@ -29,15 +30,51 @@ const MembersContainer = styled("div")`
   align-items: start;
 `;
 
-const IndividualImage = styled("img")`
-    border-radius: 18px;
-    width: 180px;
-    height: 240px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+const MemberContainer = styled("div")`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+`
+
+const MemberName = styled("p")`
+	font-weight: bold;
+	text-align: center;
+`
+
+const ImageContainer = styled("div")`
+	border-radius: 18px;
+	width: 180px;
+	height: 240px;
+	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+	display: block;
 `;
 
+const MemberImage = styled("img")`
+	width: 180px;
+	height: 240px;
+`
+
+const MemberDesc = styled("div")`
+	background-color: #ff9086;
+	padding: 10px;
+	width: 160px;
+	height: 220px;
+	overflow-y: auto;
+`
+
+const Text = styled("p")`
+	font-size: 10px;
+	margin-bottom: -8px;
+`
+
 interface MemberCheck {
-    image:string
+		name: string,
+		image: string,
+		role: string,
+		from: string,
+		year: string,
+		enjoy: string
 }
 
 function randomizeMembers(array: MemberCheck[]): MemberCheck[] {
@@ -48,8 +85,16 @@ function randomizeMembers(array: MemberCheck[]): MemberCheck[] {
     return array;
 }
 
+// const emojis = [😀, 😁, 😂, 😃, 😄, 😅, 😆, 😇, 😉, 😊, 😋, 😌, 😍, 😎, 😏, 😚, 😛, 😜, 😝, 👍, 🙏];
+
+// function randomEmoji(): string {
+// 	const index = Math.floor(Math.random() * emojis.length);
+// 	return emojis[index];
+// }
+
 //random array Object
-let randomArray: MemberCheck[] = randomizeMembers(member);
+// TODO: fix the typescript error
+let randomArray: MemberCheck[] = randomizeMembers(members);
 
 // const Member: React.FC<{src: string, alt: string, name: string, role: string, from: string, year: string, enjoy: string}> =
 //     (src, alt, name, role, from, year, enjoy) => {
@@ -57,7 +102,7 @@ let randomArray: MemberCheck[] = randomizeMembers(member);
 // }
 
 export const Members: React.FC<{}> = () => {
-    const [displayAll, toggleDisplayAll] = useState(0)
+    // const [displayAll, toggleDisplayAll] = useState(0)
     return(
         <Container className="about-content">
             <TitleContainer>
@@ -69,7 +114,19 @@ export const Members: React.FC<{}> = () => {
             <MembersContainer>
                 {randomArray.map(value => {
                     return (
-											<IndividualImage src = {value.image} alt={value.image} className="zoom-button"/>
+                        <MemberContainer>
+														<ImageContainer className="zoom-image">
+															<MemberImage src = {value.image} alt={value.image}/>
+															<MemberDesc>
+															<Text><b>Role:</b> {value.role}</Text>
+															<Text><b>Year:</b> {value.year}</Text>
+															<Text><b>Home:</b> {value.from}</Text>
+															<Text><b>What do you like most about your committee?</b></Text>
+															<Text>{value.enjoy}</Text>
+															</MemberDesc>
+														</ImageContainer>
+														<MemberName>{value.name}</MemberName>
+                        </MemberContainer>
                     )
                 })}
             </MembersContainer>

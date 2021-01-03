@@ -80,12 +80,25 @@ p {
 }
 .zoom-button {
   transition: transform .2s;
-  hover:
 }
 .zoom-button:hover {
   transform: scale(1.1);
   color: #ff9086;
 }
+
+.zoom-image {
+  transition: transform .2s;
+}
+.zoom-image:hover {
+  transform: scale(1.4);
+}
+.zoom-image > * {
+  transition: transform .2s;
+}
+.zoom-image:hover > * {
+  transform: translateY(-250px);
+}
+
 .underline-button {
   position: relative;
 }
