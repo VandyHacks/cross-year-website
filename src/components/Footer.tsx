@@ -14,7 +14,7 @@ const FooterContainer = styled.footer`
   bottom: 2vh;
   background-color: #ff9086;
   display: grid;
-  padding: 0 5%;
+  padding: 2em 5%;
 `;
 
 const InfoWrapper = styled("div")`
