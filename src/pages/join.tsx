@@ -16,7 +16,7 @@ import { JoinBox } from "../components/join/joinBox";
 // `;
 
 
-const Join: React.FC<{}> = () => (
+const join: React.FC<{}> = () => (
     <body className="join">
         <PageLinks />
         <BoardApps 
@@ -30,4 +30,4 @@ const Join: React.FC<{}> = () => (
     </body>
 )
 
-export default Join;
+export default join;

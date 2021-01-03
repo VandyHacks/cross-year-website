@@ -56,7 +56,7 @@ export const PageLinks: React.FC<{}> = () => (
       <TextContainer className="headers-content" href="/events">
         <Text className="underline-button">Events</Text>
       </TextContainer>
-      <TextContainer className="headers-content" href="/Join">
+      <TextContainer className="headers-content" href="/join">
         <Text className="underline-button">Join</Text>
       </TextContainer>
     </Container>

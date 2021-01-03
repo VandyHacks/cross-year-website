@@ -41,7 +41,7 @@ const IndexPage: React.FC = () => (
         }
         // subText="RETRO"
         buttonText="Learn more"
-        buttonLink="./Join"
+        buttonLink="./join"
       />
     </GeneralBodyContainer>
     <Footer />
