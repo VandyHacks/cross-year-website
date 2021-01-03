@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "astroturf";
 
-import {EventsBox} from "../components/events/eventBox"
+import {EventsBox} from "../components/events/EventBox"
 import {PageLinks} from "../components/PageLinks"
 import {Footer} from "../components/Footer"
 
@@ -18,7 +18,7 @@ const Main = styled("body")`
 `;
 
 
-const Events: React.FC<{}> = () => (
+const events: React.FC<{}> = () => (
     <body style={{backgroundImage: "none"}}>
         <PageLinks />
         <EventsBox />
@@ -26,4 +26,4 @@ const Events: React.FC<{}> = () => (
     </body>
 )
 
-export default Events;
+export default events;

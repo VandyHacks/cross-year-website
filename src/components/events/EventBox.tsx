@@ -1,7 +1,7 @@
 import React from "react"
 import './panel.scss'
 import styled from "astroturf";
-import totalEvents from './events.json';
+import totalevents from './events.json';
 
 const T1BG = styled('div')`
   transform: translate3d(0, 0, 0);
@@ -15,11 +15,11 @@ const T1BG = styled('div')`
 `
 export const EventsBox: React.FC<{}> = () => {
 
-    const allYears = totalEvents.map((year) => {
+    const allYears = totalevents.map((year) => {
       
       const eventsThisYear = year.Information.map((event) => {
         return(
-        <a className="text-container" href={"/Events/".concat(year.Year).concat('/#').concat(event.Title)}>
+        <a className="text-container" href={"/events/".concat(year.Year).concat('/#').concat(event.Title)}>
           <p className="text-container-text">{`▶ ${event.Title}`}</p>
         </a>);
       });
