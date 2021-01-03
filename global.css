@@ -115,7 +115,7 @@ p {
   background-color: #ff9086;
   visibility: hidden;
   transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .underline-button:hover:before {
   visibility: visible;

@@ -7,7 +7,8 @@ const Container = styled("section")`
 	display: flex;
 	flex-direction: column;
   padding: 0 10%;
-  color: #ffffff;
+	color: #ffffff;
+	margin-bottom: 10%;
 `;
 
 const TitleContainer = styled("div")`
@@ -15,7 +16,7 @@ const TitleContainer = styled("div")`
   flex-direction: column;
   justify-content: flex-start;
 	align-items: left;
-	margin-bottom: 10%;
+	margin-bottom: 5vh;
 `;
 
 const Title = styled("h2")`

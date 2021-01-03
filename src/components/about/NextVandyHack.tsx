@@ -4,7 +4,7 @@ import styled from "astroturf";
 const Container = styled("section")`
   display: flex;
   flex-direction: column;
-  padding: 0 10% 10% 10%;
+  padding: 0 10% 5vh 10%;
   color: #ffffff;
 `;
 
