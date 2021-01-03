@@ -23,12 +23,10 @@ const GeneralBodyContainer = styled("div")`
   padding: 0 10%;
   color: #ffffff;
   margin-top: 15vh;
-  height: 200px;
 `;
 
-
 const IndexPage: React.FC = () => (
-  <body className="index-main">
+  <body>
     <PageLinks />
     <GeneralBodyContainer className="index-content">
       <GeneralDescription
@@ -44,6 +42,7 @@ const IndexPage: React.FC = () => (
         buttonLink="./join"
       />
     </GeneralBodyContainer>
+    
     <Footer />
   </body>
 );
