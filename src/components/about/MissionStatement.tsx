@@ -2,10 +2,9 @@ import React from "react"
 import styled from "astroturf";
 
 const Container = styled("section")`
-  display: grid;
-  grid-template-columns: 80vw;
-  grid-template-rows: 10vh 25vh; 
-  padding: 20vh 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 20vh 10% 10vh 10%;
   color: #ffffff;
 `;
 

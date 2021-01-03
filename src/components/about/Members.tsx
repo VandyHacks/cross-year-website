@@ -14,7 +14,8 @@ const TitleContainer = styled("div")`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: left;
+	align-items: left;
+	margin-bottom: 10%;
 `;
 
 const Title = styled("h2")`
