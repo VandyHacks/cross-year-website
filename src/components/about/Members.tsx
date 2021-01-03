@@ -87,21 +87,8 @@ function randomizeMembers(array: MemberCheck[]): MemberCheck[] {
     return array;
 }
 
-// const emojis = [😀, 😁, 😂, 😃, 😄, 😅, 😆, 😇, 😉, 😊, 😋, 😌, 😍, 😎, 😏, 😚, 😛, 😜, 😝, 👍, 🙏];
-
-// function randomEmoji(): string {
-// 	const index = Math.floor(Math.random() * emojis.length);
-// 	return emojis[index];
-// }
-
 //random array Object
-// TODO: fix the typescript error
 let randomArray: MemberCheck[] = randomizeMembers(members);
-
-// const Member: React.FC<{src: string, alt: string, name: string, role: string, from: string, year: string, enjoy: string}> =
-//     (src, alt, name, role, from, year, enjoy) => {
-    
-// }
 
 export const Members: React.FC<{}> = () => {
     // const [displayAll, toggleDisplayAll] = useState(0)
@@ -117,17 +104,17 @@ export const Members: React.FC<{}> = () => {
                 {randomArray.map(value => {
                     return (
                         <MemberContainer>
-														<ImageContainer className="zoom-image">
-															<MemberImage src = {value.image} alt={value.image}/>
-															<MemberDesc>
-															<Text><b>Role:</b> {value.role}</Text>
-															<Text><b>Year:</b> {value.year}</Text>
-															<Text><b>Home:</b> {value.from}</Text>
-															<Text><b>What do you like most about your committee?</b></Text>
-															<Text>{value.enjoy}</Text>
-															</MemberDesc>
-														</ImageContainer>
-														<MemberName>{value.name}</MemberName>
+							<ImageContainer className="zoom-image">
+								<MemberImage src = {value.image} alt={value.image}/>
+								<MemberDesc>
+								<Text><b>Role:</b> {value.role}</Text>
+								<Text><b>Year:</b> {value.year}</Text>
+								<Text><b>Home:</b> {value.from}</Text>
+								<Text><b>What do you like most about your committee?</b></Text>
+								<Text>{value.enjoy}</Text>
+								</MemberDesc>
+							</ImageContainer>
+							<MemberName>{value.name}</MemberName>
                         </MemberContainer>
                     )
                 })}
