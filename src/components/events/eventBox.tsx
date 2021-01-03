@@ -20,7 +20,7 @@ export const EventsBox: React.FC<{}> = () => {
       const eventsThisYear = year.Information.map((event) => {
         return(
         <a className="text-container" href={"/Events/".concat(year.Year).concat('/#').concat(event.Title)}>
-          <p className="text-container-text">{event.Title}</p>
+          <p className="text-container-text">{`▶ ${event.Title}`}</p>
         </a>);
       });
 
