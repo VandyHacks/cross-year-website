@@ -93,7 +93,7 @@ p {
   transform: scale(1.4);
 }
 .zoom-image > * {
-  transition: transform .2s;
+  transition: transform .4s;
 }
 .zoom-image:hover > * {
   transform: translateY(-250px);
