@@ -17,7 +17,7 @@
             {
                 "Title" : "VandyHacks Mentorship",
                 "Image" : "vh mentorship.png",
-                "Description" : "With our first-ever summer (and virtual!) hackathon, VH welcomed almost 400 hackers from 7 different countries! In light of COVID-19 internship cancellations, we also matched 32 hackers with externships at 8 different Nashville non-profits."
+                "Description" : "Designed to support first- and second-year Vandy CS students navigate course registration, internship hunting, and more, the inaugural VH Mentorship group of 36 enjoyed learning from each other and recent VH alumni!"
             },
             {
                 "Title" : "Open-Saurus Rex Workshop",
@@ -45,6 +45,11 @@
                 "Title" : "HackCon 2019",
                 "Image" : "better hackcon 2019.jpg",
                 "Description" : "HackCon is a hacker conference for organizers/hacker community leaders (from north america)."
+            },
+            {
+                "Title" : "E-Week: Hack New Rand Memes",
+                "Image" : "E_week_2018.jpg",
+                "Description" : "As part of Vanderbilt School of Engineering's 'E-Week' festivities, VandyHacks had students come together to blow off steam—creating, sharing, and enjoying relatable memes."
             }
         ]
     },
@@ -56,7 +61,7 @@
             {
                 "Title" : "VandyHacks V",
                 "Image" : "vh 5.png",
-                "Description" : "Co-presidents Ananya Gondi & Gabriel Ting led an entirely remote team to create this virtual, Retro-themed event. Over 826 participants enjoyed 6 industry speakers, 8 nifty workshops, and 1000+ virtual pats of our beloved squirrel mascot."
+                "Description" : "Co-presidents Ben Cooper & John Valin brought tremendous growth to VH: a 41.4% increase in attendees from the year prior! Our Dev team further revolutionized hackathon organization by implementing a unique NFC (Near Field Communication) check-in and tracking system for our almost 700 attendees."
             },
             {
                 "Title" : "VandyHacks x MLH Local Hack Day",
