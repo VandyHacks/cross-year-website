@@ -26,7 +26,7 @@ export const EventsBox: React.FC<{}> = () => {
 
       return (
         <div className="tl-item">
-          <T1BG className={`T1BG${year.Year}`}/>
+          <T1BG className={`TLBG${year.Year}`}/>
           <div className="year">
             <p>{year.Year}</p>
           </div>

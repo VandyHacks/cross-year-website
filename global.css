@@ -71,13 +71,9 @@ p {
   grid-template-rows: 56vh 23vh 360vh 14vh;
 }
 
-.join {
+/* .join {
   grid-template-rows: 70vh 30vh 14vh;
-}
-.join-content {
-  grid-template-columns: 60vw;
-  height: 20vh;
-}
+} */
 .zoom-button {
   transition: transform .2s;
 }
@@ -205,10 +201,6 @@ p {
   /* join page layout */
   .join {
     grid-template-rows: 110vh 50vh 40vh;
-  }
-  .join-content {
-    grid-template-columns: 80vw;
-    height: 30vh;
   }
 
   /* for long head lines */
