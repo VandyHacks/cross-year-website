@@ -15,18 +15,41 @@ import {Footer} from "../components/Footer"
 //   background-image: url("../images/Big_VH_Logo.png");
 //   background-repeat: no-repeat;
 // `;
+import { GeneralDescription } from "../components/GeneralDescription";
+
+const GeneralBodyContainer = styled("div")`
+  display: grid;
+  grid-template-columns: 80vw;
+  padding: 0 10%;
+  color: #ffffff;
+  margin-top: 15vh;
+`;
 
 const about: React.FC<{}> = () => (
   <body>
     <PageLinks />
-    <MissionStatement 
+    {/* <MissionStatement 
       title="About Us"
       text={
         `VandyHacks is an undergraduate student organization dedicated to fostering a more inclusive computer science community and innovative "hacker culture" at Vanderbilt University. We accomplish this mission by hosting free workshops, collaborative study nights, and our signature hackathon: an annual, 36-hour software development marathon where hundreds of attendees come together to ideate and build both fun and practical projects.`
       }
     />
     <NextVandyHackAnnouncement />
-    <Members />
+    <Members /> */}
+    <GeneralBodyContainer className="index-content">
+      <GeneralDescription
+        title="Board Applications Open!"
+        text1={
+          `Welcome to VandyHacks! Our 2021/VH VIII Board applications are currently open until 11:59 PM CST on January 20th, 2021.`
+        }
+        text2={
+          `Join us in making Vanderbilt University's computer science community an even more enjoyable, diverse, and welcoming space.`
+        }
+        // subText="RETRO"
+        buttonText="Learn more"
+        buttonLink="./join"
+      />
+    </GeneralBodyContainer>
     <Footer />
   </body>
 )

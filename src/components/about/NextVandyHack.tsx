@@ -26,7 +26,7 @@ const Text = styled("p")`
 
 // TODO stype text section of the next VH component
 export const NextVandyHackAnnouncement: React.FC<{}> = () => (
-  <Container className="about-content">
+  <Container>
     <TitleContainer>
       <Title className="long-title">
         Upcoming Hackathons

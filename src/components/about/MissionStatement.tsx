@@ -34,7 +34,7 @@ export const MissionStatement: React.FC<{
     text: string;
 }> = ({title, text}) => {
     return (
-        <Container className="about-content">
+        <Container>
             <TitleContainer>
                 <Title>{title}</Title>
             </TitleContainer>
