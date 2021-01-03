@@ -2,7 +2,7 @@ import React from "react"
 import styled from "astroturf";
 
 import {MissionStatement} from "../components/about/MissionStatement"
-import {Members} from "../components/about/Member"
+import {Members} from "../components/about/Members"
 import {PageLinks} from "../components/PageLinks"
 import { NextVandyHackAnnouncement } from "../components/about/NextVandyHack";
 import {Footer} from "../components/Footer"

@@ -12,8 +12,9 @@ main {
 body {
   width: 100vw;
   height: 100vh;
-  display: grid;
-  grid-template-columns: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: 100vw; */
   background-color: #0000DE;
   background-image: url("./src/images/Big_VH_Logo.png");
   background-size: auto 82vh;
@@ -67,7 +68,7 @@ p {
 }
 
 .about {
-  grid-template-rows: 56vh 23vh 200vh 14vh;
+  grid-template-rows: 56vh 23vh 360vh 14vh;
 }
 
 .join {
@@ -79,12 +80,25 @@ p {
 }
 .zoom-button {
   transition: transform .2s;
-  hover:
 }
 .zoom-button:hover {
   transform: scale(1.1);
   color: #ff9086;
 }
+
+.zoom-image {
+  transition: transform .2s;
+}
+.zoom-image:hover {
+  transform: scale(1.4);
+}
+.zoom-image > * {
+  transition: transform .4s;
+}
+.zoom-image:hover > * {
+  transform: translateY(-250px);
+}
+
 .underline-button {
   position: relative;
 }
@@ -101,7 +115,7 @@ p {
   background-color: #ff9086;
   visibility: hidden;
   transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .underline-button:hover:before {
   visibility: visible;
@@ -150,7 +164,7 @@ p {
 
   /* about page */
   .about {
-    grid-template-rows: 250vw 60vw 1030vw 40vw;
+    grid-template-rows: 250vw 60vw 3000vw 40vw;
   }
 
   /* for page links / headers */
