@@ -18,8 +18,8 @@ import {Footer} from "../components/Footer"
 import { GeneralDescription } from "../components/GeneralDescription";
 
 const GeneralBodyContainer = styled("div")`
-  display: grid;
-  grid-template-columns: 80vw;
+  display: flex;
+  flex-direction: column;
   padding: 0 10%;
   color: #ffffff;
   margin-top: 15vh;
@@ -36,7 +36,7 @@ const about: React.FC<{}> = () => (
     />
     <NextVandyHackAnnouncement />
     <Members />
-    <GeneralBodyContainer className="index-content">
+    <GeneralBodyContainer>
       <GeneralDescription
         title="Board Applications Open!"
         text1={

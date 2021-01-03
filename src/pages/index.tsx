@@ -28,7 +28,7 @@ const GeneralBodyContainer = styled("div")`
 const IndexPage: React.FC = () => (
   <body>
     <PageLinks />
-    <GeneralBodyContainer className="index-content">
+    <GeneralBodyContainer>
       <GeneralDescription
         title="Board Applications Open!"
         text1={
