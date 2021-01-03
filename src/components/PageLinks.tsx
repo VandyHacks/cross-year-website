@@ -50,7 +50,7 @@ export const PageLinks: React.FC<{}> = () => (
       <HomeContainer href="/" className="headers-content">
         <VHLogo width="45" height="45" className="zoom-button"/>
       </HomeContainer>
-      <TextContainer className="headers-content" href="/About" >
+      <TextContainer className="headers-content" href="/about" >
         <Text className="underline-button">About</Text>
       </TextContainer>
       <TextContainer className="headers-content" href="/events">
