@@ -135,7 +135,7 @@
     },
     {
         "name": "Gabriel Ting",
-        "image": "/images/headshots/Gabriel-Ting.jpg",
+        "image": "/images/headshots/Gabriel-Ting.png",
         "role": "Senior Advisor, Mentor",
         "from": "Springfield, Missouri",
         "year": "Senior",
@@ -260,5 +260,13 @@
         "from": "Toronto, Canada",
         "year": "Junior",
         "enjoy": "The people!"
+    },
+    {
+        "name": "Aadi Bajpai",
+        "image": "/images/headshots/Aadi-Bajpai.jpg",
+        "role": "Dev Project Manager",
+        "from": "Kanpur, India",
+        "year": "Freshman",
+        "enjoy": "PLACEHOLDER TEEEEEEEEEEEXT"
     }
 ]
