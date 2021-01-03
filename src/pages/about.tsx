@@ -17,7 +17,7 @@ import {Footer} from "../components/Footer"
 // `;
 
 const about: React.FC<{}> = () => (
-  <body className="about">
+  <body>
     <PageLinks />
     <MissionStatement 
       title="About Us"

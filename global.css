@@ -67,13 +67,6 @@ p {
   justify-content: center;
 }
 
-.about {
-  grid-template-rows: 56vh 23vh 360vh 14vh;
-}
-
-/* .join {
-  grid-template-rows: 70vh 30vh 14vh;
-} */
 .zoom-button {
   transition: transform .2s;
 }
@@ -145,7 +138,7 @@ p {
 
   /* home/index page */
   .index-main {
-    grid-template-rows: 120vh auto;
+    display: flex;
   }
 
   .index-description {
@@ -179,7 +172,6 @@ p {
     height: 420px;
     grid-template-columns: 100fr;
     grid-template-rows: 25fr 25fr 25fr 25fr;
-    padding-top: 2em;
   }
   .footerTitle {
     writing-mode: unset;

@@ -66,7 +66,7 @@ export const Footer: React.FC<{}> = () => (
   <>
   <FooterContainer className="foot">
     <InfoWrapper className="footerInfoWrapper">
-      <Title className="footerTitle" className="footerTitle">Links</Title>
+      <Title className="footerTitle">Links</Title>
       <InfoContainer>
         <Link href="https://apply.vandyhacks.org/">Applications</Link>
         <Link href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct</Link>
