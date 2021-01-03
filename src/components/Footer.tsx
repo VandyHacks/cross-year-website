@@ -18,10 +18,8 @@ const FooterContainer = styled.footer`
 `;
 
 const InfoWrapper = styled("div")`
-  display: flex;
   min-width: 150px;
   box-sizing: border-box;
-  justify-content: flex-start;
 `;
 
 const InfoContainer = styled("div")`
