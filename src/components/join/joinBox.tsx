@@ -5,12 +5,13 @@ import { string } from "prop-types";
 
 const Container = styled("section")`
   display: flex;
-  padding: 10px;
+  padding: 5vh;
   color: #ffffff;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   background-color: #001EDE;
+  margin: 5vh 0 5vh 0;
 `;
 
 const Link = styled("a")`

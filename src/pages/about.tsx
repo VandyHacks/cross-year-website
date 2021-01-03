@@ -20,7 +20,7 @@ const about: React.FC<{}> = () => (
   <body className="about">
     <PageLinks />
     <MissionStatement 
-      title="about Us"
+      title="About Us"
       text={
         `VandyHacks is an undergraduate student organization dedicated to fostering a more inclusive computer science community and innovative "hacker culture" at Vanderbilt University. We accomplish this mission by hosting free workshops, collaborative study nights, and our signature hackathon: an annual, 36-hour software development marathon where hundreds of attendees come together to ideate and build both fun and practical projects.`
       }
