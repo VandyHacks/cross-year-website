@@ -71,7 +71,8 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media (orientation: landscape) and (max-width: 926px),
+only screen and (max-width: 600px) {
   .tl-item {
     height: 190vh;
   }
