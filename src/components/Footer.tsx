@@ -1,5 +1,5 @@
 import React from "react";
-import { styled, css} from "astroturf";
+import { styled, css } from "astroturf";
 import Facebook from "../assets/icons/facebook.svg";
 import Github from "../assets/icons/github.svg";
 import Instagram from "../assets/icons/instagram.svg";
@@ -64,51 +64,61 @@ const Pudding = styled("div")`
 
 export const Footer: React.FC<{}> = () => (
   <>
-  <FooterContainer className="foot">
-    <InfoWrapper className="footerInfoWrapper">
-      <Title className="footerTitle">Links</Title>
-      <InfoContainer>
-        <Link href="https://apply.vandyhacks.org/">Applications</Link>
-        <Link href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">Code of Conduct</Link>
-      </InfoContainer>
-    </InfoWrapper>
-    <InfoWrapper className="footerInfoWrapper">
-      <Title className="footerTitle">Companies</Title>
-      <InfoContainer>
-        {/* <Link href="#">Our sponsors</Link> */}
-        <Link href="mailto:sponsorship@vandyhacks.org">Contact Sponsorship</Link>
-      </InfoContainer>
-    </InfoWrapper>
-    <InfoWrapper className="footerInfoWrapper">
-      <Title className="footerTitle">Social Media</Title>
-      <IconsContainer>
-        <IconLink href="https://www.facebook.com/vandyhacks/" target="_blank">
-          <Facebook className="socialButton" />
-        </IconLink>
-        <IconLink href="https://www.instagram.com/vandyhacks/" target="_blank">
-          <Instagram className="socialButton" />
-        </IconLink>
-        <IconLink href="https://twitter.com/vandyhacks" target="_blank">
-          <Twitter className="socialButton" />
-        </IconLink>
-        <IconLink href="https://www.youtube.com/channel/UC-sXkznjkmHLjpA5nlfdswg/" target="_blank">
-          <Youtube className="socialButton" />
-        </IconLink>
-        <IconLink href="https://www.twitch.tv/vandyhacks" target="_blank">
-          <Twitch className="socialButton" />
-        </IconLink>
-        <IconLink href="https://github.com/VandyHacks" target="_blank">
-          <Github className="socialButton" />
-        </IconLink>
-      </IconsContainer>
-    </InfoWrapper>
-    <InfoWrapper className="footerInfoWrapper">
-      <Title className="footerTitle">Contact us</Title>
-      <InfoContainer>
-        <Link href="mailto:info@vandyhacks.org">info@vandyhacks.org</Link>
-      </InfoContainer>
-    </InfoWrapper>
-  </FooterContainer>
-  <Pudding />
+    <FooterContainer className="foot">
+      <InfoWrapper className="footerInfoWrapper">
+        <Title className="footerTitle">Links</Title>
+        <InfoContainer>
+          <Link href="https://apply.vandyhacks.org/">Applications</Link>
+          <Link href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">
+            Code of Conduct
+          </Link>
+        </InfoContainer>
+      </InfoWrapper>
+      <InfoWrapper className="footerInfoWrapper">
+        <Title className="footerTitle">Companies</Title>
+        <InfoContainer>
+          {/* <Link href="#">Our sponsors</Link> */}
+          <Link href="mailto:sponsorship@vandyhacks.org">
+            Contact Sponsorship
+          </Link>
+        </InfoContainer>
+      </InfoWrapper>
+      <InfoWrapper className="footerInfoWrapper">
+        <Title className="footerTitle">Social Media</Title>
+        <IconsContainer>
+          <IconLink href="https://www.facebook.com/vandyhacks/" target="_blank">
+            <Facebook className="socialButton" />
+          </IconLink>
+          <IconLink
+            href="https://www.instagram.com/vandyhacks/"
+            target="_blank"
+          >
+            <Instagram className="socialButton" />
+          </IconLink>
+          <IconLink href="https://twitter.com/vandyhacks" target="_blank">
+            <Twitter className="socialButton" />
+          </IconLink>
+          <IconLink
+            href="https://www.youtube.com/channel/UC-sXkznjkmHLjpA5nlfdswg/"
+            target="_blank"
+          >
+            <Youtube className="socialButton" />
+          </IconLink>
+          <IconLink href="https://www.twitch.tv/vandyhacks" target="_blank">
+            <Twitch className="socialButton" />
+          </IconLink>
+          <IconLink href="https://github.com/VandyHacks" target="_blank">
+            <Github className="socialButton" />
+          </IconLink>
+        </IconsContainer>
+      </InfoWrapper>
+      <InfoWrapper className="footerInfoWrapper">
+        <Title className="footerTitle">Contact us</Title>
+        <InfoContainer>
+          <Link href="mailto:info@vandyhacks.org">info@vandyhacks.org</Link>
+        </InfoContainer>
+      </InfoWrapper>
+    </FooterContainer>
+    <Pudding />
   </>
 );

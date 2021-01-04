@@ -53,9 +53,7 @@ export const GeneralDescription: React.FC<{
   return (
     <Container className="index-description">
       <TitleContainer>
-        <Title>
-          {title}
-        </Title>
+        <Title>{title}</Title>
         {/* <ArrowContainer>
           <TextArrow width="55" height = "30"/>
         </ArrowContainer> */}
@@ -63,7 +61,7 @@ export const GeneralDescription: React.FC<{
       <DescriptionContainer className="description-container">
         <Text className="index-description-text">{text1}</Text>
         <Text className="index-description-text">{text2}</Text>
-        <ArrowButton href={buttonLink} text={buttonText}/>
+        <ArrowButton href={buttonLink} text={buttonText} />
       </DescriptionContainer>
     </Container>
   );

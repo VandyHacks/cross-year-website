@@ -1,26 +1,36 @@
 "use strict";
 
-var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
-
 exports.__esModule = true;
 exports.errorMap = exports.reportError = exports.clearError = void 0;
-
-var ReactRefreshErrorOverlay = _interopRequireWildcard(require("@pmmmwh/react-refresh-webpack-plugin/src/overlay"));
-
-var ReactErrorOverlay = _interopRequireWildcard(require("react-error-overlay"));
-
+const overlayPackage =
+  process.env.GATSBY_HOT_LOADER !== `fast-refresh`
+    ? require(`react-error-overlay`)
+    : require(`@pmmmwh/react-refresh-webpack-plugin/overlay`);
 const ErrorOverlay = {
-  showCompileError: process.env.GATSBY_HOT_LOADER !== `fast-refresh` ? ReactErrorOverlay.reportBuildError : ReactRefreshErrorOverlay.showCompileError,
-  clearCompileError: process.env.GATSBY_HOT_LOADER !== `fast-refresh` ? ReactErrorOverlay.dismissBuildError : ReactRefreshErrorOverlay.clearCompileError
+  showCompileError:
+    process.env.GATSBY_HOT_LOADER !== `fast-refresh`
+      ? overlayPackage.reportBuildError
+      : overlayPackage.showCompileError,
+  clearCompileError:
+    process.env.GATSBY_HOT_LOADER !== `fast-refresh`
+      ? overlayPackage.dismissBuildError
+      : overlayPackage.clearCompileError
 };
 
 if (process.env.GATSBY_HOT_LOADER !== `fast-refresh`) {
   // Report runtime errors
-  ReactErrorOverlay.startReportingRuntimeErrors({
+  overlayPackage.startReportingRuntimeErrors({
     onError: () => {},
     filename: `/commons.js`
   });
-  ReactErrorOverlay.setEditorHandler(errorLocation => window.fetch(`/__open-stack-frame-in-editor?fileName=` + window.encodeURIComponent(errorLocation.fileName) + `&lineNumber=` + window.encodeURIComponent(errorLocation.lineNumber || 1)));
+  overlayPackage.setEditorHandler(errorLocation =>
+    window.fetch(
+      `/__open-stack-frame-in-editor?fileName=` +
+        window.encodeURIComponent(errorLocation.fileName) +
+        `&lineNumber=` +
+        window.encodeURIComponent(errorLocation.lineNumber || 1)
+    )
+  );
 }
 
 const errorMap = {};
@@ -35,21 +45,23 @@ const handleErrorOverlay = () => {
   let errorStringsToDisplay = [];
 
   if (errors.length > 0) {
-    errorStringsToDisplay = flat(errors).map(error => {
-      if (typeof error === `string`) {
-        return error;
-      } else if (typeof error === `object`) {
-        const errorStrBuilder = [error.text];
+    errorStringsToDisplay = flat(errors)
+      .map(error => {
+        if (typeof error === `string`) {
+          return error;
+        } else if (typeof error === `object`) {
+          const errorStrBuilder = [error.text];
 
-        if (error.filePath) {
-          errorStrBuilder.push(`File: ${error.filePath}`);
+          if (error.filePath) {
+            errorStrBuilder.push(`File: ${error.filePath}`);
+          }
+
+          return errorStrBuilder.join(`\n\n`);
         }
 
-        return errorStrBuilder.join(`\n\n`);
-      }
-
-      return null;
-    }).filter(Boolean);
+        return null;
+      })
+      .filter(Boolean);
   }
 
   if (errorStringsToDisplay.length > 0) {

@@ -1,6 +1,6 @@
-import React from "react"
+import React from "react";
 
-import {PageLinks} from "../components/PageLinks"
+import { PageLinks } from "../components/PageLinks";
 
 const NotFoundPage: React.FC<{}> = () => (
   <div>
@@ -8,6 +8,6 @@ const NotFoundPage: React.FC<{}> = () => (
     <h2>Error Page</h2>
     <PageLinks />
   </div>
-)
+);
 
-export default NotFoundPage
+export default NotFoundPage;

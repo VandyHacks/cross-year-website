@@ -1,1 +1,6 @@
-{"componentChunkName":"component---src-pages-events-tsx","path":"/Events/","result":{"pageContext":{}}}
+{
+  "componentChunkName": "component---src-pages-events-tsx",
+  "path": "/events/",
+  "result": { "pageContext": {} },
+  "staticQueryHashes": []
+}

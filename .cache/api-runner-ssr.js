@@ -1,13 +1,22 @@
-var plugins = [{
-      plugin: require('/Users/zouxue/Desktop/internship3.0/VandyHacksDev2.0/cross-year-website/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('/Users/zouxue/Desktop/internship3.0/VandyHacksDev2.0/cross-year-website/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
-    },{
-      plugin: require('/Users/zouxue/Desktop/internship3.0/VandyHacksDev2.0/cross-year-website/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
-      options: {"plugins":[]},
-    }]
+var plugins = [
+  {
+    plugin: require("/Users/chinchuluunmunkh-achit/dev/cross-year-website/node_modules/gatsby-plugin-react-helmet/gatsby-ssr"),
+    options: { plugins: [] }
+  },
+  {
+    plugin: require("/Users/chinchuluunmunkh-achit/dev/cross-year-website/node_modules/gatsby-plugin-manifest/gatsby-ssr"),
+    options: {
+      plugins: [],
+      name: "gatsby-starter-default",
+      short_name: "starter",
+      start_url: "/",
+      background_color: "#663399",
+      theme_color: "#663399",
+      display: "minimal-ui",
+      icon: "src/images/Big_VH_Logo.png"
+    }
+  }
+];
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
@@ -20,33 +29,33 @@ var plugins = [{
 //   },
 // ]
 
-const apis = require(`./api-ssr-docs`)
+const apis = require(`./api-ssr-docs`);
 
 // Run the specified API in any plugins that have implemented it
 module.exports = (api, args, defaultReturn, argTransform) => {
   if (!apis[api]) {
-    console.log(`This API doesn't exist`, api)
+    console.log(`This API doesn't exist`, api);
   }
 
   // Run each plugin in series.
   // eslint-disable-next-line no-undef
   let results = plugins.map(plugin => {
     if (!plugin.plugin[api]) {
-      return undefined
+      return undefined;
     }
-    const result = plugin.plugin[api](args, plugin.options)
+    const result = plugin.plugin[api](args, plugin.options);
     if (result && argTransform) {
-      args = argTransform({ args, result })
+      args = argTransform({ args, result });
     }
-    return result
-  })
+    return result;
+  });
 
   // Filter out undefined results.
-  results = results.filter(result => typeof result !== `undefined`)
+  results = results.filter(result => typeof result !== `undefined`);
 
   if (results.length > 0) {
-    return results
+    return results;
   } else {
-    return [defaultReturn]
+    return [defaultReturn];
   }
-}
+};

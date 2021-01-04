@@ -2,7 +2,7 @@ import React from "react";
 import styled from "astroturf";
 import "../../global.css";
 
-import {PageLinks} from "../components/PageLinks";
+import { PageLinks } from "../components/PageLinks";
 import { Footer } from "../components/Footer";
 import { GeneralDescription } from "../components/GeneralDescription";
 
@@ -31,18 +31,14 @@ const IndexPage: React.FC = () => (
     <GeneralBodyContainer>
       <GeneralDescription
         title="Board Applications Open!"
-        text1={
-          `Welcome to VandyHacks! Our 2021/VH VIII Board applications are currently open until 11:59 PM CST on January 20th, 2021.`
-        }
-        text2={
-          `Join us in making Vanderbilt University's computer science community an even more enjoyable, diverse, and welcoming space.`
-        }
+        text1={`Welcome to VandyHacks! Our 2021/VH VIII Board applications are currently open until 11:59 PM CST on January 20th, 2021.`}
+        text2={`Join us in making Vanderbilt University's computer science community an even more enjoyable, diverse, and welcoming space.`}
         // subText="RETRO"
         buttonText="Learn more"
         buttonLink="./join"
       />
     </GeneralBodyContainer>
-    
+
     <Footer />
   </body>
 );

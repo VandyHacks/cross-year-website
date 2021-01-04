@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import styled from "astroturf";
 
 const Container = styled("section")`
@@ -31,17 +31,17 @@ const Text = styled("p")`
 `;
 
 export const BoardApps: React.FC<{
-    title: string;
-    text: string;
-}> = ({title, text}) => {
-    return (
-        <Container className="join-content">
-            <TitleContainer >
-                <Title className="long-title">{title}</Title>
-            </TitleContainer>
-            <DescriptionContainer>
-                <Text>{text}</Text>
-            </DescriptionContainer>
-        </Container>
-    );
+  title: string;
+  text: string;
+}> = ({ title, text }) => {
+  return (
+    <Container className="join-content">
+      <TitleContainer>
+        <Title className="long-title">{title}</Title>
+      </TitleContainer>
+      <DescriptionContainer>
+        <Text>{text}</Text>
+      </DescriptionContainer>
+    </Container>
+  );
 };

@@ -128,7 +128,6 @@
 //   height: auto;
 // `;
 
-
 // const HelloWorld: React.FC<{}> = () => (
 //   <Main style={{backgroundColor : bgcolor}}>
 //     <PageLinks />
@@ -159,4 +158,4 @@
 //   </Main>
 // );
 
-// export default HelloWorld; 
+// export default HelloWorld;

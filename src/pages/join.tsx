@@ -1,8 +1,8 @@
-import React from "react"
+import React from "react";
 import styled from "astroturf";
 
-import {PageLinks} from "../components/PageLinks"
-import {Footer} from "../components/Footer"
+import { PageLinks } from "../components/PageLinks";
+import { Footer } from "../components/Footer";
 import { BoardApps } from "../components/join/boardApps";
 import { JoinBox } from "../components/join/joinBox";
 
@@ -15,19 +15,18 @@ import { JoinBox } from "../components/join/joinBox";
 //   background-repeat: no-repeat;
 // `;
 
-
 const join: React.FC<{}> = () => (
-    <body>
-        <PageLinks />
-        <BoardApps 
-            title="2021 Board Applications - Open through January 20th, 2021"
-            text={
-                "With 7 different committees (Content, Design, Development, Hacker Experience, Marketing, Operations, and Sponsorship), VandyHacks definitely has something for you! We warmly welcome all years and majors; our top priority is to bring together a group filled with genuine enthusiasm and creative energy. You can learn more about VandyHacks and our application process below."
-            }
-        />
-        <JoinBox />
-        <Footer />
-    </body>
-)
+  <body>
+    <PageLinks />
+    <BoardApps
+      title="2021 Board Applications - Open through January 20th, 2021"
+      text={
+        "With 7 different committees (Content, Design, Development, Hacker Experience, Marketing, Operations, and Sponsorship), VandyHacks definitely has something for you! We warmly welcome all years and majors; our top priority is to bring together a group filled with genuine enthusiasm and creative energy. You can learn more about VandyHacks and our application process below."
+      }
+    />
+    <JoinBox />
+    <Footer />
+  </body>
+);
 
 export default join;

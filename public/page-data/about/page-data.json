@@ -1,1 +1,6 @@
-{"componentChunkName":"component---src-pages-about-tsx","path":"/About/","result":{"pageContext":{}}}
+{
+  "componentChunkName": "component---src-pages-about-tsx",
+  "path": "/about/",
+  "result": { "pageContext": {} },
+  "staticQueryHashes": []
+}

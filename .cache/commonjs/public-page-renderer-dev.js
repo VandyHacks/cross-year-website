@@ -13,15 +13,16 @@ var _loader = _interopRequireDefault(require("./loader"));
 
 var _queryResultStore = require("./query-result-store");
 
-const DevPageRenderer = ({
-  location
-}) => {
+const DevPageRenderer = ({ location }) => {
   const pageResources = _loader.default.loadPageSync(location.pathname);
 
-  return _react.default.createElement(_queryResultStore.PageQueryStore, {
-    location,
-    pageResources
-  });
+  return /*#__PURE__*/ _react.default.createElement(
+    _queryResultStore.PageQueryStore,
+    {
+      location,
+      pageResources
+    }
+  );
 };
 
 DevPageRenderer.propTypes = {

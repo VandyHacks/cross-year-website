@@ -28,13 +28,9 @@ const Text = styled("p")`
 export const NextVandyHackAnnouncement: React.FC<{}> = () => (
   <Container>
     <TitleContainer>
-      <Title className="long-title">
-        Upcoming Hackathons
-      </Title>
+      <Title className="long-title">Upcoming Hackathons</Title>
     </TitleContainer>
-    <Text>
-      Stay tuned for VandyHacks VIII!
-    </Text>
+    <Text>Stay tuned for VandyHacks VIII!</Text>
     {/* <GeneralDescription
       title="VANDYHACKS VII"
       text={

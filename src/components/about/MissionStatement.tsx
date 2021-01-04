@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import styled from "astroturf";
 
 // const Container = styled("section")`
@@ -12,7 +12,7 @@ const Container = styled("section")`
   grid-template-columns: 80vw;
   padding: 20vh 10% 5vh 10%;
   color: #ffffff;
-`
+`;
 
 const TitleContainer = styled("div")`
   display: flex;
@@ -36,17 +36,17 @@ const Text = styled("p")`
 `;
 
 export const MissionStatement: React.FC<{
-    title: string;
-    text: string;
-}> = ({title, text}) => {
-    return (
-        <Container>
-            <TitleContainer>
-                <Title>{title}</Title>
-            </TitleContainer>
-            <DescriptionContainer>
-                <Text>{text}</Text>
-            </DescriptionContainer>
-        </Container>
-    );
+  title: string;
+  text: string;
+}> = ({ title, text }) => {
+  return (
+    <Container>
+      <TitleContainer>
+        <Title>{title}</Title>
+      </TitleContainer>
+      <DescriptionContainer>
+        <Text>{text}</Text>
+      </DescriptionContainer>
+    </Container>
+  );
 };

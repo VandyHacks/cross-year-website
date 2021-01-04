@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "astroturf";
 // import RightArrow from "../assets/icons/right_arrow.svg";
-import PlayButton from "../assets/icons/PlayButton.svg"
-
+import PlayButton from "../assets/icons/PlayButton.svg";
 
 const Container = styled("a")`
   display: flex;
@@ -21,20 +20,20 @@ const Text = styled("p")`
   margin-right: 1em;
 `;
 
-const ButtonContainer = styled('div')`
+const ButtonContainer = styled("div")`
   display: flex;
   align-items: center;
-`
+`;
 
 export const ArrowButton: React.FC<{ text: string; href: string }> = ({
   text,
-  href,
+  href
 }) => {
   return (
     <Container href={href}>
-      <ButtonContainer className='zoom-button'>
+      <ButtonContainer className="zoom-button">
         <Text>{text}</Text>
-        <PlayButton width="32" height="16"/>
+        <PlayButton width="32" height="16" />
       </ButtonContainer>
     </Container>
   );

@@ -129,7 +129,6 @@
 //   height: auto;
 // `;
 
-
 // const VandyHacksVI: React.FC<{}> = () => (
 //   <Main style={{backgroundColor : bgcolor}}>
 //       <PageLinks />
@@ -160,4 +159,4 @@
 //   </Main>
 // );
 
-// export default VandyHacksVI; 
+// export default VandyHacksVI;

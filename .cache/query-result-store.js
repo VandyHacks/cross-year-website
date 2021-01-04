@@ -1,13 +1,12 @@
-import React from "react"
-import { StaticQueryContext } from "gatsby"
+import React from "react";
+import { StaticQueryContext } from "gatsby";
 import {
-  getPageQueryData,
   registerPath as socketRegisterPath,
-  unregisterPath as socketUnregisterPath,
-  getStaticQueryData,
-} from "./socketIo"
-import PageRenderer from "./page-renderer"
-import normalizePagePath from "./normalize-page-path"
+  unregisterPath as socketUnregisterPath
+} from "./socketIo";
+import PageRenderer from "./page-renderer";
+import normalizePagePath from "./normalize-page-path";
+import loader, { getStaticQueryResults } from "./loader";
 
 if (process.env.NODE_ENV === `production`) {
   throw new Error(
@@ -17,50 +16,57 @@ if (process.env.NODE_ENV === `production`) {
       `configuration this is likely a bug in Gatsby. ` +
       `Please report this at https://github.com/gatsbyjs/gatsby/issues ` +
       `with steps to reproduce this error.`
-  )
+  );
 }
 
 const getPathFromProps = props =>
   props.pageResources && props.pageResources.page
     ? normalizePagePath(props.pageResources.page.path)
-    : undefined
+    : undefined;
 
 export class PageQueryStore extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
-      pageQueryData: getPageQueryData(),
-      path: null,
-    }
+      pageData: null,
+      path: null
+    };
   }
 
   handleMittEvent = () => {
-    this.setState({
-      pageQueryData: getPageQueryData(),
-    })
-  }
+    this.setState(state => {
+      return {
+        page: state.path
+          ? loader.loadPageSync(normalizePagePath(state.path))
+          : null
+      };
+    });
+  };
 
   componentDidMount() {
-    socketRegisterPath(getPathFromProps(this.props))
-    ___emitter.on(`*`, this.handleMittEvent)
+    socketRegisterPath(getPathFromProps(this.props));
+    ___emitter.on(`pageQueryResult`, this.handleMittEvent);
+    ___emitter.on(`onPostLoadPageResources`, this.handleMittEvent);
   }
 
   componentWillUnmount() {
-    socketUnregisterPath(this.state.path)
-    ___emitter.off(`*`, this.handleMittEvent)
+    socketUnregisterPath(this.state.path);
+    ___emitter.off(`pageQueryResult`, this.handleMittEvent);
+    ___emitter.off(`onPostLoadPageResources`, this.handleMittEvent);
   }
 
   static getDerivedStateFromProps(props, state) {
-    const newPath = getPathFromProps(props)
+    const newPath = getPathFromProps(props);
     if (newPath !== state.path) {
-      socketUnregisterPath(state.path)
-      socketRegisterPath(newPath)
+      socketUnregisterPath(state.path);
+      socketRegisterPath(newPath);
       return {
         path: newPath,
-      }
+        page: newPath ? loader.loadPageSync(normalizePagePath(newPath)) : null
+      };
     }
 
-    return null
+    return null;
   }
 
   shouldComponentUpdate(nextProps, nextState) {
@@ -71,49 +77,49 @@ export class PageQueryStore extends React.Component {
     return (
       this.props.location !== nextProps.location ||
       this.state.path !== nextState.path ||
-      this.state.pageQueryData[normalizePagePath(nextState.path)] !==
-        nextState.pageQueryData[normalizePagePath(nextState.path)]
-    )
+      this.state.page !== nextState.page
+    );
   }
 
   render() {
-    const data = this.state.pageQueryData[getPathFromProps(this.props)]
     // eslint-disable-next-line
-    if (!data) {
-      return <div />
+    if (!this.state.page) {
+      return <div />;
     }
 
-    return <PageRenderer {...this.props} {...data} />
+    return <PageRenderer {...this.props} {...this.state.page.json} />;
   }
 }
 
 export class StaticQueryStore extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
-      staticQueryData: getStaticQueryData(),
-    }
+      staticQueryData: { ...getStaticQueryResults() }
+    };
   }
 
   handleMittEvent = () => {
     this.setState({
-      staticQueryData: getStaticQueryData(),
-    })
-  }
+      staticQueryData: { ...getStaticQueryResults() }
+    });
+  };
 
   componentDidMount() {
-    ___emitter.on(`*`, this.handleMittEvent)
+    ___emitter.on(`staticQueryResult`, this.handleMittEvent);
+    ___emitter.on(`onPostLoadPageResources`, this.handleMittEvent);
   }
 
   componentWillUnmount() {
-    ___emitter.off(`*`, this.handleMittEvent)
+    ___emitter.off(`staticQueryResult`, this.handleMittEvent);
+    ___emitter.off(`onPostLoadPageResources`, this.handleMittEvent);
   }
 
   shouldComponentUpdate(nextProps, nextState) {
     // We want to update this component when:
     // - static query results changed
 
-    return this.state.staticQueryData !== nextState.staticQueryData
+    return this.state.staticQueryData !== nextState.staticQueryData;
   }
 
   render() {
@@ -121,6 +127,6 @@ export class StaticQueryStore extends React.Component {
       <StaticQueryContext.Provider value={this.state.staticQueryData}>
         {this.props.children}
       </StaticQueryContext.Provider>
-    )
+    );
   }
 }
