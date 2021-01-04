@@ -1,12 +1,18 @@
 import React from "react"
 import styled from "astroturf";
 
+// const Container = styled("section")`
+//   display: flex;
+//   flex-direction: column;
+//   padding: 20vh 10% 5vh 10%;
+//   color: #ffffff;
+// `;
 const Container = styled("section")`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 80vw;
   padding: 20vh 10% 5vh 10%;
   color: #ffffff;
-`;
+`
 
 const TitleContainer = styled("div")`
   display: flex;

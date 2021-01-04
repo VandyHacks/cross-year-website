@@ -4,9 +4,9 @@ import styled from "astroturf";
 
 
 const Container = styled("section")`
-	display: flex;
-	flex-direction: column;
-  padding: 0 10%;
+	display: grid;
+	grid-template-columns: 80vw;
+	padding: 0 10%;
 	color: #ffffff;
 	margin-bottom: 10%;
 `;

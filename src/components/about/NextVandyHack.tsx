@@ -2,8 +2,8 @@ import React from "react";
 import styled from "astroturf";
 
 const Container = styled("section")`
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-colums: 80vw;
   padding: 0 10% 5vh 10%;
   color: #ffffff;
 `;
