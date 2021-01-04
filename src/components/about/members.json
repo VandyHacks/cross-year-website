@@ -3,17 +3,17 @@
         "name": "Meghan Callandriello",
         "image": "/images/headshots/Meghan-Callandriello.jpg",
         "role": "Director of Sponsorship",
-        "from": "Charlotte, NC",
+        "from": "Morristown, NJ",
         "year": "Junior",
-        "enjoy": "The community and the distressing events"
+        "enjoy": "I love the VH community and the destressing events, like cup stacking and the hand spa!"
     },
     {
         "name": "Ben Redmond",
         "image": "/images/headshots/Benjamin-Redmond.jpg",
-        "role": "Dev",
+        "role": "Dev Member",
         "from": "Rogers, AR",
         "year": "Senior",
-        "enjoy": "The community of hackers getting together for a weekend to achieve one common goal of producing an interesting product. "
+        "enjoy": "It's so cool to see a community of hackers getting together for a weekend to achieve one common goal of producing an interesting product."
     },
     {
         "name": "Aadarsh Jha",
@@ -21,7 +21,7 @@
         "role": "President, Mentor",
         "from": "Austin, TX",
         "year": "Junior",
-        "enjoy": "Coming together and making something cool. "
+        "enjoy": "It's such an honor meeting such talented individuals - specifically, my co-president Sayd. I cherish these days to be able to work along side such a breath-taking individual."
     },
     {
         "name": "Anna Zhang",
@@ -29,20 +29,20 @@
         "role": "Ops Committee Advisor, Mentor",
         "from": "McLean, VA",
         "year": "Junior",
-        "enjoy": "Operations - making food decisions. Senior Advisor - being involved in so many different things, and serving as a mentor to new members."
+        "enjoy": "As an ops member, it's fun making the decisions for what food we serve. I alos enjoy serving as a mentor to new members."
     },
     {
         "name": "Claire Yan",
         "image": "/images/headshots/Claire-Yan.jpg",
-        "role": "Hacker Experience",
+        "role": "Hacker Experience Member",
         "from": "Short Hills, NJ",
         "year": "Sophomore",
-        "enjoy": "I think I enjoy most all the decorating/theme-based things we do bc I feel like it can contribute a lot to the atmosphere of a hackathon and it's just really fun to plan."
+        "enjoy": "I think I enjoy most all the decorating/theme-based things we do bc I feel like it can contribute a lot to the atmosphere of a hackathon."
     },
     {
         "name": "Katelyn Itano",
         "image": "/images/headshots/Katelyn-Itano.jpg",
-        "role": "Ops",
+        "role": "Operations Member",
         "from": "Phoenix, AZ",
         "year": "Junior",
         "enjoy": "It's been fun working with and getting to know all these talented people."
@@ -53,7 +53,7 @@
         "role": "Marketing Committee Advisor, Mentor",
         "from": "New Delhi, India",
         "year": "Senior",
-        "enjoy": "Comms/Marketing - We give a unified voice to the immensely diverse VH community and help forward the mission of VandyHacks with every single thing that we do."
+        "enjoy": "We give a unified voice to the immensely diverse VH community and help forward the mission of VandyHacks with every single thing that we do."
     },
     {
         "name": "Sam Lee",
@@ -66,23 +66,23 @@
     {
         "name": "Tim O'Brien",
         "image": "/images/headshots/Tim-O_Brien.jpg",
-        "role": "Dev and Content",
+        "role": "Dev and Content Member",
         "from": "Miami, FL",
         "year": "Senior",
-        "enjoy": "Dev: I like how many things we're always working on and how willing and able everyone is to help. Content: I love teaching workshops and hearing different people's ideas"
+        "enjoy": "I love teaching workshops and hearing different people's ideas."
     },
     {
         "name": "Keshvi Mahalingam",
         "image": "/images/headshots/Keshvi-Mahalingam.jpg",
-        "role": "Content",
+        "role": "Content Member",
         "from": "Kansas City, MO",
         "year": "Sophomore",
-        "enjoy": "I like figuring out how to do new and interesting things with programming"
+        "enjoy": "I like figuring out how to do new and interesting things with programming."
     },
     {
         "name": "Lu Cao",
         "image": "/images/headshots/Lu-Cao.jpg",
-        "role": "Sponsorship",
+        "role": "Sponsorship Member",
         "from": "Cary, NC",
         "year": "Junior",
         "enjoy": "I really like the people on my committee and getting to build relationships with sponsors."
@@ -90,18 +90,18 @@
     {
         "name": "Chuka Munkh-Achit",
         "image": "/images/headshots/Chinchuluun-Munkh-achit.jpg",
-        "role": "Dev, Hacker Experience",
+        "role": "Dev and Hacker Experience Member",
         "from": "Erdenet, Mongolia",
         "year": "Junior",
-        "enjoy": "The memes"
+        "enjoy": "The memes."
     },
     {
         "name": "Juyoung Kim",
         "image": "/images/headshots/Juyoung-Kim.jpg",
-        "role": "Dev",
-        "from": "Salt Lake City, Utah",
+        "role": "Dev Member",
+        "from": "Salt Lake City, UT",
         "year": "Junior",
-        "enjoy": "Dev: always willing to lend a hand"
+        "enjoy": "All the other Dev members are so willing to lend a hand."
     },
     {
         "name": "Ananya Gondi",
@@ -109,20 +109,20 @@
         "role": "Senior Advisor, Mentor",
         "from": "Hyderabad, India",
         "year": "Senior",
-        "enjoy": "All of board is so talented and creative. I love hanging out with y'all :) "
+        "enjoy": "All of board is so talented and creative. I love hanging out with y'all :)."
     },
     {
         "name": "Jerry Qin",
         "image": "/images/headshots/Jerry-Qin.jpg",
-        "role": "Sponsorship Committee Advisor, Content",
-        "from": "Fremont, California",
+        "role": "Sponsorship Committee Advisor",
+        "from": "Fremont, CA",
         "year": "Junior",
-        "enjoy": "Sponsorship has (some of) the coolest ppl in VH"
+        "enjoy": "Sponsorship has (some of) the coolest ppl in VH."
     },
     {
         "name": "Evelyn Mulyono",
         "image": "/images/headshots/Evelyn-Mulyono.jpg",
-        "role": "Marketing",
+        "role": "Marketing Member ",
         "from": "Pontianak, Indonesia",
         "year": "Junior",
         "enjoy": "How funny and supportive everyone is!"
@@ -130,7 +130,7 @@
     {
         "name": "Ben Siraphob",
         "image": "/images/headshots/Ben-Siraphob.jpg",
-        "role": "Dev, Content",
+        "role": "Dev and Content Member",
         "from": "Bangkok, Thailand",
         "year": "Sophomore",
         "enjoy": "Everyone has a big brain."
@@ -141,31 +141,31 @@
         "role": "Senior Advisor, Mentor",
         "from": "Springfield, Missouri",
         "year": "Senior",
-        "enjoy": "Working with all the people in VandyHacks! I'm always learning something from them–I really love our team. Being co-president means that I can work together with people across the organization on a large variety of projects, which is invigorating."
+        "enjoy": "I'm always learning something from them–I really love our team. As a former co-president, I've worked with people across the organization on a large variety of projects, which is invigorating."
     },
     {
         "name": "Sam Bender",
         "image": "/images/headshots/Samuel-Bender.jpg",
-        "role": "Hacker Experience",
+        "role": "Hacker Experience Member",
         "from": "Franklin, TN",
         "year": "Senior",
-        "enjoy": "We specialize in creating unique experiences that makes VandyHacks stand out from other hackathons"
+        "enjoy": "We specialize in creating unique experiences that makes VandyHacks stand out from other hackathons."
     },
     {
         "name": "Sophia Chen",
         "image": "/images/headshots/Sophia-Chen.jpg",
-        "role": "Marketing, Committee Advisor",
+        "role": "Marketing Committee Advisor, Mentor",
         "from": "Naperville, IL",
         "year": "Senior",
-        "enjoy": "Fun fact: marketing is the smallest team on VH at four people! It's nice being smaller since we can be more tight knit and meetings feel more personable."
+        "enjoy": "Fun fact - marketing is the smallest team on VH at four people! It's nice having a smaller team since we can be more tight knit and meetings feel more personable."
     },
     {
         "name": "Saydolimkhon Agzamkhodjaev",
         "image": "/images/headshots/Saydolimkhon-Agzamkhodjaev.jpg",
         "role": "President",
-        "from": "Uzbekistan",
+        "from": "Tashkent, Uzbekistan",
         "year": "Sophomore",
-        "enjoy": "Hard-working, kind, and motivated team."
+        "enjoy": "It's been such a pleasure leading a hard-working, kind, and motivated team."
     },
     {
         "name": "Ilya Ermakov",
@@ -173,37 +173,37 @@
         "role": "Director of Operations",
         "from": "Tashkent, Uzbekistan",
         "year": "Sophomore",
-        "enjoy": "Everybody's full devotion to work and desire to make things better "
+        "enjoy": "It's great seeing everybody's full devotion to work and desire to make things better."
     },
     {
         "name": "William Zhao",
         "image": "/images/headshots/William-Zhao.jpg",
         "role": "Content Committee Advisor, Mentor",
-        "from": "Birmingham, Alabama",
+        "from": "Birmingham, AL",
         "year": "Senior",
-        "enjoy": "Everyone being super driven about helping hackers and teaching them new technologies"
+        "enjoy": "Everyone's super driven about helping hackers and teaching them new technologies."
     },
     {
         "name": "Vanessa Pei",
         "image": "/images/headshots/Vanessa-Pei.jpg",
-        "role": "Sponsorship",
+        "role": "Sponsorship Member",
         "from": "Qingdao, China",
         "year": "Sophomore",
-        "enjoy": "basically everything:)"
+        "enjoy": "Basically everything! Everyone's super nice and very helpful :)."
     },
     {
         "name": "Jacky Zhang",
         "image": "/images/headshots/Jacky-Zhang.jpg",
-        "role": "Sponsorship",
+        "role": "Sponsorship Member",
         "from": "Charlotte, NC",
         "year": "Junior",
-        "enjoy": "Most fashionable committee :)"
+        "enjoy": "IMHO, we are the most fashionable committee :)."
     },
     {
         "name": "Alex Cuc",
         "image": "/images/headshots/Alexandra-Cuc.jpg",
-        "role": "Hacker Experience, Committee Advsor",
-        "from": "Chicago burbs",
+        "role": "Hacker Experience Committee Advsor",
+        "from": "Buffalo Grove, IL",
         "year": "Junior",
         "enjoy": "We have a lot of fun together even when we're not talking about VH!"
     },
@@ -211,7 +211,7 @@
         "name": "Seok Hee Hong",
         "image": "/images/headshots/Seok-Hee-Hong.jpg",
         "role": "Director of Content",
-        "from": "Portage, Michigan",
+        "from": "Portage, MI",
         "year": "Sophomore",
         "enjoy": "I get to learn so much while teaching others! (as in, I get to spread the love ahaha)"
     },
@@ -221,7 +221,7 @@
         "role": "Content Committee Advisor",
         "from": "Nanjing, China",
         "year": "Senior",
-        "enjoy": "For Content, we teach and spread the knowledge and welcome others into the world of CS. For HE, we decide the prizes and we design all the fun events and make them come true. Both of my committees are super united and always willing to help each other out. We enjoy doing our work which the best part of it!"
+        "enjoy": "For content, we teach and spread the knowledge and welcome others into the world of CS. We enjoy doing our work which the best part of it!"
     },
     {
         "name": "Kathy Zhang",
@@ -234,10 +234,10 @@
     {
         "name": "Fay Zhang",
         "image": "/images/headshots/AnRan-Zhang.jpg",
-        "role": "Hacker Experience",
+        "role": "Hacker Experience Member",
         "from": "Beijing, China",
         "year": "Junior",
-        "enjoy": "I love to brainstorm different activity ideas with my committee to help to enhance the hackathon experience. I also loved how I have learned so much from each committee member."
+        "enjoy": "I love to brainstorm different activity ideas with my committee to help to enhance the hackathon experience."
     },
     {
         "name": "Christina Woodrow",
@@ -245,23 +245,23 @@
         "role": "Director of Marketing",
         "from": "Kennesaw, GA",
         "year": "Sophomore",
-        "enjoy": "Everyone pitches in to stay on track; easy to mutually voice opinions"
+        "enjoy": "Everyone pitches in to stay on track. It's easy to mutually voice opinions."
     },
     {
         "name": "Terry Luo",
         "image": "/images/headshots/Terry-Luo.jpg",
-        "role": "Content",
-        "from": "Cincinnati, Ohio",
+        "role": "Content, Mentor",
+        "from": "Cincinnati, OH",
         "year": "Junior",
         "enjoy": "I like that content members directly engage with hackers through workshops."
     },
     {
         "name": "Zinnie Zhang",
         "image": "/images/headshots/Zinnie-Zhang.jpg",
-        "role": "Sponsorship",
+        "role": "Sponsorship Member",
         "from": "Toronto, Canada",
         "year": "Junior",
-        "enjoy": "The people!"
+        "enjoy": "It has to be the people!"
     },
     {
         "name": "Aadi Bajpai",
@@ -269,6 +269,6 @@
         "role": "Dev Project Manager",
         "from": "Kanpur, India",
         "year": "Freshman",
-        "enjoy": "people—old and new"
+        "enjoy": "I love the people—old and new."
     }
 ]
