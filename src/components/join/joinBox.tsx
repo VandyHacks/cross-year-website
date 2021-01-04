@@ -2,6 +2,10 @@ import React, { MouseEvent } from "react"
 import styled from "astroturf";
 import { string } from "prop-types";
 
+const ANecessaryEvil = styled("div")`
+  display: grid;
+  grid-template-columns: 100vw;
+`
 
 const Container = styled("section")`
   display: flex;
@@ -48,6 +52,7 @@ function foo(){
 
 export const JoinBox: React.FC<{}> = () => {
     return (
+      <ANecessaryEvil>
         <Container className="join-content">
           <Link href='https://medium.com/@z.annaw19/vandyhacks-board-committees-2020-3496106048e0' target='_blank' className='underline-button'>
               1. Learn about the application
@@ -57,5 +62,6 @@ export const JoinBox: React.FC<{}> = () => {
           </Link>
           <JoinLink href='https://join.vandyhacks.org/' target='_blank' className='zoom-button'>3. Apply!</JoinLink>
         </Container>
+      </ANecessaryEvil>
     );
 };
