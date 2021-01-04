@@ -25,6 +25,11 @@ const GeneralBodyContainer = styled("div")`
   margin-top: 15vh;
 `;
 
+const Padding = styled("div")`
+  display: grid;
+  grid-template-rows: 15vh;
+`
+
 const IndexPage: React.FC = () => (
   <body>
     <PageLinks />
@@ -42,7 +47,7 @@ const IndexPage: React.FC = () => (
         buttonLink="./join"
       />
     </GeneralBodyContainer>
-    
+    <Padding/>
     <Footer />
   </body>
 );
