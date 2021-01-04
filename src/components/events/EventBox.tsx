@@ -3,6 +3,13 @@ import './panel.scss'
 import styled from "astroturf";
 import totalevents from './events.json';
 
+// TODO: stupid but need to wrap in grid otherwise breaks on iOS
+const ANecessaryEvil = styled("section")`
+  display: grid;
+  grid-template-columns: 100vw;
+  color: #ffffff;
+`;
+
 const T1BG = styled('div')`
   transform: translate3d(0, 0, 0);
   position: absolute;
@@ -38,8 +45,10 @@ export const EventsBox: React.FC<{}> = () => {
     })
 
     return (
-      <section id="timeline">
-        {allYears}
-      </section>
+      <ANecessaryEvil>
+        <section id="timeline">
+          {allYears}
+        </section>
+      </ANecessaryEvil>
     );
 };
