@@ -76,7 +76,8 @@ interface MemberCheck {
 		role: string,
 		from: string,
 		year: string,
-		enjoy: string
+		enjoy: string,
+		funfact: string
 }
 
 function randomizeMembers(array: MemberCheck[]): MemberCheck[] {
@@ -112,6 +113,8 @@ export const Members: React.FC<{}> = () => {
 								<Text><b>Home:</b> {value.from}</Text>
 								<Text><b>What do you like most about your committee?</b></Text>
 								<Text>{value.enjoy}</Text>
+								<Text><b>What's a fun fact about yourself?</b></Text>
+								<Text>{value.funfact}</Text>
 								</MemberDesc>
 							</ImageContainer>
 							<MemberName>{value.name}</MemberName>
