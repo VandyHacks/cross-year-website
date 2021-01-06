@@ -6,6 +6,10 @@ import {Footer} from "../components/Footer"
 import { BoardApps } from "../components/join/boardApps";
 import { JoinBox } from "../components/join/joinBox";
 
+const Padding = styled("div")`
+  display: grid;
+  grid-template-rows: 25vh;
+`
 // const Main = styled("body")`
 //   width: 100vw;
 //   background-color: #0000DE;
@@ -26,6 +30,7 @@ const join: React.FC<{}> = () => (
             }
         />
         <JoinBox />
+        <Padding />
         <Footer />
     </body>
 )
