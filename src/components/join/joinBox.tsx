@@ -54,7 +54,7 @@ export const JoinBox: React.FC<{}> = () => {
     return (
       <ANecessaryEvil>
         <Container className="join-content">
-          <Link href='https://medium.com/@z.annaw19/vandyhacks-board-committees-2020-3496106048e0' target='_blank' className='underline-button'>
+          <Link href='https://medium.com/vandyhacks/applying-to-vandyhacks-board-2021-2328534e23c5' target='_blank' className='underline-button'>
               1. Learn about the application
           </Link>
           <Link href='https://medium.com/@z.annaw19/vandyhacks-board-committees-2020-3496106048e0' target='_blank' className='underline-button'>
