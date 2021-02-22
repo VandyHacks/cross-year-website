@@ -1,5 +1,4 @@
 import React from "react"
-import styled from "astroturf";
 
 import {MissionStatement} from "../components/about/MissionStatement"
 import {Members} from "../components/about/Members"
