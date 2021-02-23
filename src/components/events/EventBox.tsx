@@ -50,7 +50,7 @@ export const EventsBox: React.FC<{}> = () => {
 
       const eventsThisYear = year.Information.map((event) => {
         return(
-        <a className="text-container" key={event.Title} href={"/events/".concat(year.Year).concat('/#').concat(event.Title)}>
+        <a className="text-container" key={event.Title} href={`/events/${year.Year}/#${event.Title}`}>
           <p className="text-container-text">{`▶ ${event.Title}`}</p>
         </a>);
       });
