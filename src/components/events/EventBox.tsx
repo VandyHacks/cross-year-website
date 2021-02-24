@@ -1,10 +1,10 @@
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 import './panel.scss'
 import styled from "astroturf";
-import totalevents from './events.json';
 
 // TODO: stupid but need to wrap in grid otherwise breaks on iOS
-const ANecessaryEvil = styled("section")`
+const iOSGrid = styled("section")`
   display: grid;
   grid-template-columns: 100vw;
   color: #ffffff;
@@ -20,19 +20,43 @@ const T1BG = styled('div')`
   background-position: center center;
   transition: filter 0.5s ease;  
 `
-export const EventsBox: React.FC<{}> = () => {
 
-    const allYears = totalevents.map((year) => {
-      
+interface eventPreviewData {
+  allEventsJson: {
+      nodes: {
+        Year: string,
+        Information: {
+          Title: string
+        }[]
+      }[]
+  }
+}
+export const EventsBox: React.FC<{}> = () => {
+        const data = useStaticQuery(
+       graphql`
+        query {
+          allEventsJson {
+            nodes {
+              Year
+              Information {
+                Title
+              }
+            }
+          }
+      }`
+     )
+     const info = data.allEventsJson.nodes;
+     const allYears = info.map((year) => {
+
       const eventsThisYear = year.Information.map((event) => {
         return(
-        <a className="text-container" href={"/years/".concat(year.Year).concat('/#').concat(event.Title)}>
+        <a className="text-container" key={event.Title} href={`/events/${year.Year}/#${event.Title}`}>
           <p className="text-container-text">{`▶ ${event.Title}`}</p>
         </a>);
       });
 
       return (
-        <div className="tl-item">
+        <div className="tl-item" key="tl-item">
           <T1BG className={`TLBG${year.Year}`}/>
           <div className="year">
             <p>{year.Year}</p>
@@ -45,10 +69,11 @@ export const EventsBox: React.FC<{}> = () => {
     })
 
     return (
-      <ANecessaryEvil>
+      <iOSGrid>
         <section id="timeline">
           {allYears}
         </section>
-      </ANecessaryEvil>
+      </iOSGrid>
     );
 };
+

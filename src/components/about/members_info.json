@@ -1,7 +1,7 @@
 [
     {
         "name": "Meghan Callandriello",
-        "image": "/images/headshots/Meghan-Callandriello.jpg",
+        "image": "headshots/Meghan-Callandriello.jpg",
         "role": "Director of Sponsorship",
         "from": "Morristown, NJ",
         "year": "Junior",
@@ -10,7 +10,7 @@
     },
     {
         "name": "Ben Redmond",
-        "image": "/images/headshots/Benjamin-Redmond.jpg",
+        "image": "headshots/Benjamin-Redmond.jpg",
         "role": "Dev Member",
         "from": "Rogers, AR",
         "year": "Senior",
@@ -19,7 +19,7 @@
     },
     {
         "name": "Aadarsh Jha",
-        "image": "/images/headshots/Aadarsh-Jha.jpg",
+        "image": "headshots/Aadarsh-Jha.jpg",
         "role": "President, Mentor",
         "from": "Austin, TX",
         "year": "Junior",
@@ -28,7 +28,7 @@
     },
     {
         "name": "Anna Zhang",
-        "image": "/images/headshots/Anna-Zhang.jpg",
+        "image": "headshots/Anna-Zhang.jpg",
         "role": "Ops Committee Advisor, Mentor",
         "from": "McLean, VA",
         "year": "Junior",
@@ -37,7 +37,7 @@
     },
     {
         "name": "Claire Yan",
-        "image": "/images/headshots/Claire-Yan.jpg",
+        "image": "headshots/Claire-Yan.jpg",
         "role": "Hacker Experience Member",
         "from": "Short Hills, NJ",
         "year": "Sophomore",
@@ -46,7 +46,7 @@
     },
     {
         "name": "Katelyn Itano",
-        "image": "/images/headshots/Katelyn-Itano.jpg",
+        "image": "headshots/Katelyn-Itano.jpg",
         "role": "Operations Member",
         "from": "Phoenix, AZ",
         "year": "Junior",
@@ -55,7 +55,7 @@
     },
     {
         "name": "Paavas Bhasin",
-        "image": "/images/headshots/Paavas-Bhasin.jpg",
+        "image": "headshots/Paavas-Bhasin.jpg",
         "role": "Marketing Committee Advisor, Mentor",
         "from": "New Delhi, India",
         "year": "Senior",
@@ -64,7 +64,7 @@
     },
     {
         "name": "Sam Lee",
-        "image": "/images/headshots/Samuel-Lee.jpg",
+        "image": "headshots/Samuel-Lee.jpg",
         "role": "Dev Tech Lead",
         "from": "Boston, MA",
         "year": "Junior",
@@ -73,7 +73,7 @@
     },
     {
         "name": "Tim O'Brien",
-        "image": "/images/headshots/Tim-O_Brien.jpg",
+        "image": "headshots/Tim-O_Brien.jpg",
         "role": "Dev and Content Member",
         "from": "Miami, FL",
         "year": "Senior",
@@ -82,7 +82,7 @@
     },
     {
         "name": "Keshvi Mahalingam",
-        "image": "/images/headshots/Keshvi-Mahalingam.jpg",
+        "image": "headshots/Keshvi-Mahalingam.jpg",
         "role": "Content Member",
         "from": "Kansas City, MO",
         "year": "Sophomore",
@@ -91,7 +91,7 @@
     },
     {
         "name": "Lu Cao",
-        "image": "/images/headshots/Lu-Cao.jpg",
+        "image": "headshots/Lu-Cao.jpg",
         "role": "Sponsorship Member",
         "from": "Cary, NC",
         "year": "Junior",
@@ -100,7 +100,7 @@
     },
     {
         "name": "Chuka Munkh-Achit",
-        "image": "/images/headshots/Chinchuluun-Munkh-achit.jpg",
+        "image": "headshots/Chinchuluun-Munkh-achit.jpg",
         "role": "Dev and Hacker Experience Member",
         "from": "Erdenet, Mongolia",
         "year": "Junior",
@@ -109,7 +109,7 @@
     },
     {
         "name": "Juyoung Kim",
-        "image": "/images/headshots/Juyoung-Kim.jpg",
+        "image": "headshots/Juyoung-Kim.jpg",
         "role": "Dev Member",
         "from": "Salt Lake City, UT",
         "year": "Junior",
@@ -118,7 +118,7 @@
     },
     {
         "name": "Ananya Gondi",
-        "image": "/images/headshots/Ananya-Gondi.jpg",
+        "image": "headshots/Ananya-Gondi.jpg",
         "role": "Senior Advisor, Mentor",
         "from": "Hyderabad, India",
         "year": "Senior",
@@ -127,7 +127,7 @@
     },
     {
         "name": "Jerry Qin",
-        "image": "/images/headshots/Jerry-Qin.jpg",
+        "image": "headshots/Jerry-Qin.jpg",
         "role": "Sponsorship Committee Advisor, Content Member",
         "from": "Fremont, CA",
         "year": "Junior",
@@ -136,7 +136,7 @@
     },
     {
         "name": "Evelyn Mulyono",
-        "image": "/images/headshots/Evelyn-Mulyono.jpg",
+        "image": "headshots/Evelyn-Mulyono.jpg",
         "role": "Marketing Member ",
         "from": "Pontianak, Indonesia",
         "year": "Junior",
@@ -145,7 +145,7 @@
     },
     {
         "name": "Siraphob (Ben) Phipathananunth",
-        "image": "/images/headshots/Ben-Siraphob.jpg",
+        "image": "headshots/Ben-Siraphob.jpg",
         "role": "Dev and Content Member",
         "from": "Bangkok, Thailand",
         "year": "Sophomore",
@@ -154,7 +154,7 @@
     },
     {
         "name": "Gabriel Ting",
-        "image": "/images/headshots/Gabriel-Ting.png",
+        "image": "headshots/Gabriel-Ting.png",
         "role": "Senior Advisor, Mentor",
         "from": "Springfield, Missouri",
         "year": "Senior",
@@ -163,7 +163,7 @@
     },
     {
         "name": "Sam Bender",
-        "image": "/images/headshots/Samuel-Bender.jpg",
+        "image": "headshots/Samuel-Bender.jpg",
         "role": "Hacker Experience Member",
         "from": "Franklin, TN",
         "year": "Senior",
@@ -172,7 +172,7 @@
     },
     {
         "name": "Sophia Chen",
-        "image": "/images/headshots/Sophia-Chen.jpg",
+        "image": "headshots/Sophia-Chen.jpg",
         "role": "Marketing Committee Advisor, Mentor",
         "from": "Naperville, IL",
         "year": "Junior",
@@ -181,7 +181,7 @@
     },
     {
         "name": "Saydolimkhon Agzamkhodjaev",
-        "image": "/images/headshots/Saydolimkhon-Agzamkhodjaev.jpg",
+        "image": "headshots/Saydolimkhon-Agzamkhodjaev.jpg",
         "role": "President",
         "from": "Tashkent, Uzbekistan",
         "year": "Sophomore",
@@ -190,7 +190,7 @@
     },
     {
         "name": "Ilya Ermakov",
-        "image": "/images/headshots/Ilya-Ermakov.jpg",
+        "image": "headshots/Ilya-Ermakov.jpg",
         "role": "Director of Operations",
         "from": "Tashkent, Uzbekistan",
         "year": "Sophomore",
@@ -199,7 +199,7 @@
     },
     {
         "name": "William Zhao",
-        "image": "/images/headshots/William-Zhao.jpg",
+        "image": "headshots/William-Zhao.jpg",
         "role": "Content Committee Advisor, Mentor",
         "from": "Birmingham, AL",
         "year": "Senior",
@@ -208,7 +208,7 @@
     },
     {
         "name": "Vanessa Pei",
-        "image": "/images/headshots/Vanessa-Pei.jpg",
+        "image": "headshots/Vanessa-Pei.jpg",
         "role": "Sponsorship Member",
         "from": "Qingdao, China",
         "year": "Sophomore",
@@ -217,7 +217,7 @@
     },
     {
         "name": "Jacky Zhang",
-        "image": "/images/headshots/Jacky-Zhang.jpg",
+        "image": "headshots/Jacky-Zhang.jpg",
         "role": "Sponsorship Member",
         "from": "Charlotte, NC",
         "year": "Junior",
@@ -226,7 +226,7 @@
     },
     {
         "name": "Alex Cuc",
-        "image": "/images/headshots/Alexandra-Cuc.jpg",
+        "image": "headshots/Alexandra-Cuc.jpg",
         "role": "Hacker Experience Committee Advisor",
         "from": "Buffalo Grove, IL",
         "year": "Junior",
@@ -235,7 +235,7 @@
     },
     {
         "name": "Seok Hee Hong",
-        "image": "/images/headshots/Seok-Hee-Hong.jpg",
+        "image": "headshots/Seok-Hee-Hong.jpg",
         "role": "Director of Content",
         "from": "Portage, MI",
         "year": "Sophomore",
@@ -244,7 +244,7 @@
     },
     {
         "name": "Amy Chen",
-        "image": "/images/headshots/Amy-Qingxin-Chen.jpg",
+        "image": "headshots/Amy-Qingxin-Chen.jpg",
         "role": "Content Committee Advisor",
         "from": "Nanjing, China",
         "year": "Senior",
@@ -253,7 +253,7 @@
     },
     {
         "name": "Kathy Zhang",
-        "image": "/images/headshots/Kathy-Zhang-Zihan.jpg",
+        "image": "headshots/Kathy-Zhang-Zihan.jpg",
         "role": "Design Committee Advisor",
         "from": "Dallas, TX",
         "year": "Senior",
@@ -262,7 +262,7 @@
     },
     {
         "name": "Fay Zhang",
-        "image": "/images/headshots/AnRan-Zhang.jpg",
+        "image": "headshots/AnRan-Zhang.jpg",
         "role": "Hacker Experience Member",
         "from": "Beijing, China",
         "year": "Junior",
@@ -271,7 +271,7 @@
     },
     {
         "name": "Christina Woodrow",
-        "image": "/images/headshots/Christina-Woodrow.jpg",
+        "image": "headshots/Christina-Woodrow.jpg",
         "role": "Director of Marketing",
         "from": "Kennesaw, GA",
         "year": "Sophomore",
@@ -280,7 +280,7 @@
     },
     {
         "name": "Terry Luo",
-        "image": "/images/headshots/Terry-Luo.jpg",
+        "image": "headshots/Terry-Luo.jpg",
         "role": "Content, Mentor",
         "from": "Cincinnati, OH",
         "year": "Junior",
@@ -289,7 +289,7 @@
     },
     {
         "name": "Zinnie Zhang",
-        "image": "/images/headshots/Zinnie-Zhang.jpg",
+        "image": "headshots/Zinnie-Zhang.jpg",
         "role": "Sponsorship Member",
         "from": "Toronto, Canada",
         "year": "Junior",
@@ -298,7 +298,7 @@
     },
     {
         "name": "Aadi Bajpai",
-        "image": "/images/headshots/Aadi-Bajpai.jpg",
+        "image": "headshots/Aadi-Bajpai.jpg",
         "role": "Dev Project Manager",
         "from": "Kanpur, India",
         "year": "Freshman",

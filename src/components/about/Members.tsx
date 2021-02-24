@@ -106,7 +106,7 @@ export const Members: React.FC<{}> = () => {
           return (
             <MemberContainer>
               <ImageContainer className='zoom-image'>
-                <MemberImage src={value.image} alt={value.image} />
+                <MemberImage src={require(`../../images/${value.image}`)} alt={value.image} />
                 <MemberDesc>
                   <Text>
                     <b>Role:</b> {value.role}
