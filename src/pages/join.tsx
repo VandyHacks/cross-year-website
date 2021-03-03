@@ -26,7 +26,7 @@ const join: React.FC<{}> = () => (
         <BoardApps 
             title="2021 Board Applications now Closed"
             text={
-                "While we have closed our applications for this season, we still welcome you to learn more about our organization. With 7 different committees (Content, Design, Development, Hacker Experience, Marketing, Operations, and Sponsorship), VandyHacks definitely has something for you! We warmly welcome all years and majors; our top priority is to bring together a group filled with genuine enthusiasm and creative energy. You can learn more about VandyHacks and our application process below."
+                "While we have closed our applications for this season, we still invite you to learn more about our organization. With 7 different committees (Content, Design, Development, Hacker Experience, Marketing, Operations, and Sponsorship), VandyHacks definitely has something for you! We warmly welcome all years and majors; our top priority is to bring together a group filled with genuine enthusiasm and creative energy. You can learn more about VandyHacks and our application process below."
             }
         />
         <JoinBox />
