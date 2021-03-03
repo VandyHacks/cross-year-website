@@ -37,10 +37,10 @@ const IndexPage: React.FC = () => (
       <GeneralDescription
         title="Welcome to VandyHacks!"
         text1={
-          `Our 2021/VH VIII Board applications have closed, and we are ecstatic about all our new members!`
+          `Our 2021/VH VIII Board applications have closed, and we are excited to welcome all our new members!`
         }
         text2={
-          `Click here to learn more about VandyHacks and what we do as an organization. We hope to see your application for VH XI!`
+          `Click here to learn more about VandyHacks and what we do as an organization. We hope to see your application for VH IX!`
         }
         // subText="RETRO"
         buttonText="Learn more"
