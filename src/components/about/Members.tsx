@@ -54,6 +54,7 @@ const ImageContainer = styled('div')`
 const MemberImage = styled('img')`
   width: 180px;
   height: 240px;
+  object-fit: cover;
 `;
 
 const MemberDesc = styled('div')`

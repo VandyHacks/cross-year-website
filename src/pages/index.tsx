@@ -35,12 +35,12 @@ const IndexPage: React.FC = () => (
     <PageLinks />
     <GeneralBodyContainer>
       <GeneralDescription
-        title="Board Applications Open!"
+        title="Welcome to VandyHacks!"
         text1={
-          `Welcome to VandyHacks! Our 2021/VH VIII Board applications are currently open until 11:59 PM CST on January 20th, 2021.`
+          `Our 2021/VH VIII Board applications have closed, and we are excited to welcome all our new members!`
         }
         text2={
-          `Join us in making Vanderbilt University's computer science community an even more enjoyable, diverse, and welcoming space.`
+          `Click here to learn more about VandyHacks and what we do as an organization. We hope to see your application for VH IX!`
         }
         // subText="RETRO"
         buttonText="Learn more"
