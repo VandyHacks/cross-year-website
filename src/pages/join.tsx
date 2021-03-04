@@ -24,7 +24,7 @@ const join: React.FC<{}> = () => (
     <body>
         <PageLinks />
         <BoardApps 
-            title="VH VIII Board Applications on January 20th, 2021"
+            title="VH VIII Board Applications Closed on January 20th, 2021"
             text={
                 "While we have closed our applications for this season, we still invite you to learn more about our organization. With 7 different committees (Content, Design, Development, Hacker Experience, Marketing, Operations, and Sponsorship), VandyHacks definitely has something for you! We warmly welcome all years and majors; our top priority is to bring together a group filled with genuine enthusiasm and creative energy. You can learn more about VandyHacks and our application process below."
             }
