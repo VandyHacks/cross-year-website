@@ -8,13 +8,15 @@ import Twitter from "../assets/icons/twitter.svg";
 import Youtube from "../assets/icons/youtube.svg";
 
 const FooterContainer = styled.footer`
-  width: 100%;
+  width: 100vw;
+  height: 10vh;
   color: #ffffff;
   left: 0;
   bottom: 2vh;
-  background-color: #ff9086;
+  background-color: #0c223355;
+  margin-top: 100px;
   display: grid;
-  padding: 2em 5%;
+  padding: 2vh 5vw;
 `;
 
 const InfoWrapper = styled("div")`
@@ -64,6 +66,7 @@ const Pudding = styled("div")`
 
 export const Footer: React.FC<{}> = () => (
   <>
+  <Pudding />
   <FooterContainer className="foot">
     <InfoWrapper className="footerInfoWrapper">
       <Title className="footerTitle">Links</Title>
@@ -109,6 +112,5 @@ export const Footer: React.FC<{}> = () => (
       </InfoContainer>
     </InfoWrapper>
   </FooterContainer>
-  <Pudding />
   </>
 );

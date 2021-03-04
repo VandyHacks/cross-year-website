@@ -1,19 +1,17 @@
 import React from "react"
 import styled from "astroturf";
-import VHLogo from "../assets/icons/VH_Home_Logo.svg"
+import VHLogo from "../assets/icons/VH_Home_Logo.svg";
 
 const Container = styled("div")`
+  background-color: #071e3d77;
   position: fixed;
-  width: 90 vw;
-  left: 26px;
-  right: 36px;
+  width: 100vw;
+  margin: 0;
   z-index: 2;
   display: grid;
   color: #ffffff;
+  padding: 3vh 2.5vw;
   backdrop-filter: blur(6px);
-  padding-top: 4vh;
-  padding-bottom: 4vh;
-  padding-left: 1em;
   -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
   box-shadow: 1px 2px 3px rgba(0,0,0,.5);
@@ -28,9 +26,12 @@ const TextContainer = styled("a")`
 `;
 
 const Text = styled("p")`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1rem;
   font-family: Inter;
-  font-weight: 300;
+  font-weight: 500;
   margin: 0;
   color: #FFFFFF;
 `;
@@ -48,16 +49,16 @@ const HomeContainer = styled("a")`
 export const PageLinks: React.FC<{}> = () => (
     <Container className="headers">
       <HomeContainer href="/" className="headers-content">
-        <VHLogo width="45" height="45" className="zoom-button"/>
+        <VHLogo width="60" height="60" className="zoom-button"/>
       </HomeContainer>
       <TextContainer className="headers-content" href="/about" >
-        <Text className="underline-button">About</Text>
+        <Text className="underline-button">ABOUT</Text>
       </TextContainer>
       <TextContainer className="headers-content" href="/events">
-        <Text className="underline-button">Events</Text>
+        <Text className="underline-button">EVENTS</Text>
       </TextContainer>
       <TextContainer className="headers-content" href="/join">
-        <Text className="underline-button">Join</Text>
+        <Text className="underline-button">JOIN</Text>
       </TextContainer>
     </Container>
 );

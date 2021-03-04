@@ -17,7 +17,7 @@ const Text = styled("p")`
   font-family: Inter;
   font-weight: bold;
   margin: 0;
-  color: #ff9086;
+  color: #fff;
   margin-right: 1em;
 `;
 

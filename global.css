@@ -12,19 +12,18 @@ main {
 body {
   width: 100vw;
   height: 100vh;
+  background-color: #071e3d;
   display: flex;
   flex-direction: column;
-  /* grid-template-columns: 100vw; */
-  background-color: #0000DE;
   background-image: url("./src/images/Big_VH_Logo.png");
-  background-size: auto 82vh;
+  background-size: auto 80vh;
   background-position: bottom 20px right 100px;
   background-repeat: no-repeat;
-  margin: 0;
+  margin: 0 0 -100px 0;  
   padding: 0;
   overflow-x: hidden;
+  overflow-y: auto;
 }
-
 
 /* Use a media query to scale the background image */
 @media only screen and (max-width: 600px) {
@@ -62,17 +61,12 @@ p {
 .index-description-text {
   margin-left: 2rem;
 }
-
-.description-container {
-  justify-content: center;
-}
-
 .zoom-button {
   transition: transform .2s;
 }
 .zoom-button:hover {
   transform: scale(1.1);
-  color: #ff9086;
+  color: #1f4287;
 }
 
 .zoom-image {
@@ -92,7 +86,7 @@ p {
   position: relative;
 }
 .underline-button:hover {
-  color: #ff9086;
+  color: #fff;
 }
 .underline-button:before {
   content: "";
@@ -101,7 +95,7 @@ p {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ff9086;
+  background-color: #fff;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.2s ease-in-out;
@@ -150,10 +144,6 @@ only screen and (max-width: 760px) {
   .index-description-text {
     margin-left: 0;
     margin-top: 1.8rem;
-  }
-
-  .description-container {
-    justify-content: flex-start;
   }
 
   /* about page */
