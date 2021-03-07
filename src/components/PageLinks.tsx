@@ -6,6 +6,7 @@ const Container = styled("div")`
   position: fixed;
   width: 100vw;
   margin: 0;
+  position: absolute;
   z-index: 2;
   display: grid;
   color: #ffffff;
@@ -46,19 +47,19 @@ const HomeContainer = styled("a")`
 
 
 export const PageLinks: React.FC<{}> = () => (
-    <Container className="headers">
-      <HomeContainer href="/" className="headers-content">
-        <VHLogo width="60" height="60" className="zoom-button"/>
-      </HomeContainer>
-      <TextContainer className="headers-content" href="/about" >
-        <Text className="underline-button">About</Text>
-      </TextContainer>
-      <TextContainer className="headers-content" href="/events">
-        <Text className="underline-button">Events</Text>
-      </TextContainer>
-      <TextContainer className="headers-content" href="/join">
-        <Text className="underline-button">Join</Text>
-      </TextContainer>
-    </Container>
+  <Container className="headers">
+    <HomeContainer href="/" className="headers-content">
+      <VHLogo width="60" height="60" className="zoom-button" />
+    </HomeContainer>
+    <TextContainer className="headers-content" href="/about" >
+      <Text className="underline-button">About</Text>
+    </TextContainer>
+    <TextContainer className="headers-content" href="/events">
+      <Text className="underline-button">Events</Text>
+    </TextContainer>
+    <TextContainer className="headers-content" href="/join">
+      <Text className="underline-button">Join</Text>
+    </TextContainer>
+  </Container>
 );
 
