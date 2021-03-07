@@ -10,6 +10,7 @@ const Container = styled("div")`
   z-index: 2;
   display: grid;
   color: #ffffff;
+  box-sizing: border-box;
   padding: 3vh 2.5vw;
   backdrop-filter: blur(6px);
   -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
