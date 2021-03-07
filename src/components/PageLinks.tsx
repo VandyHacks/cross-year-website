@@ -6,7 +6,6 @@ const Container = styled("div")`
   position: fixed;
   width: 100vw;
   margin: 0;
-  position: absolute;
   z-index: 2;
   display: grid;
   color: #ffffff;
