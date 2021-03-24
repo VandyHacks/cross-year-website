@@ -1,5 +1,5 @@
 import React from "react";
-import { styled, css} from "astroturf";
+import styled from "astroturf";
 import Facebook from "../assets/icons/facebook.svg";
 import Github from "../assets/icons/github.svg";
 import Instagram from "../assets/icons/instagram.svg";
@@ -8,7 +8,6 @@ import Twitter from "../assets/icons/twitter.svg";
 import Youtube from "../assets/icons/youtube.svg";
 
 const FooterContainer = styled.footer`
-  width: 100%;
   color: #ffffff;
   left: 0;
   bottom: 2vh;
