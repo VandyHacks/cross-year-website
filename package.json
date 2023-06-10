@@ -7,7 +7,7 @@
   "dependencies": {
     "astroturf": "^0.10.4",
     "babel-plugin-styled-components": "^1.12.0",
-    "gatsby": "^2.23.2",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.44",
     "gatsby-plugin-astroturf": "^0.2.1",
     "gatsby-plugin-css-literal-loader": "^1.0.0",
